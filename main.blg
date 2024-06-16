@@ -1,0 +1,76 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: main.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: 0ACover/0cover.aux
+Reallocating 'name_of_file' (item size: 1) to 19 items.
+A level-1 auxiliary file: 0ACover/1title.aux
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+A level-1 auxiliary file: 0ACover/2copyright.aux
+Reallocating 'name_of_file' (item size: 1) to 25 items.
+A level-1 auxiliary file: 0ACover/3declaration.aux
+Reallocating 'name_of_file' (item size: 1) to 28 items.
+A level-1 auxiliary file: 0ACover/4recommendation.aux
+Reallocating 'name_of_file' (item size: 1) to 34 items.
+A level-1 auxiliary file: 0ACover/5departmentAcceptance.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: 0ACover/6acknowledgement.aux
+Reallocating 'name_of_file' (item size: 1) to 24 items.
+A level-1 auxiliary file: 0HAbstract/abstract.aux
+Reallocating 'name_of_file' (item size: 1) to 34 items.
+A level-1 auxiliary file: 0IAbbreviations/abbreviations.aux
+Reallocating 'name_of_file' (item size: 1) to 31 items.
+A level-1 auxiliary file: 1Introduction/introduction.aux
+Reallocating 'name_of_file' (item size: 1) to 39 items.
+A level-1 auxiliary file: 2Literaturereview/literaturereview.aux
+Reallocating 'name_of_file' (item size: 1) to 29 items.
+A level-1 auxiliary file: 3Methodology/methodology.aux
+Reallocating 'name_of_file' (item size: 1) to 55 items.
+A level-1 auxiliary file: 4ImplementationAndTesting/ImplementationAndTesting.aux
+Reallocating 'name_of_file' (item size: 1) to 33 items.
+A level-1 auxiliary file: 5ConclusionFuture/conclusion.aux
+Reallocating 'name_of_file' (item size: 1) to 6 items.
+The style file: unsrt.bst
+Reallocating 'name_of_file' (item size: 1) to 22 items.
+Database file #1: References/references.bib
+You've used 5 entries,
+            1791 wiz_defined-function locations,
+            493 strings with 5174 characters,
+and the built_in function-call counts, 1456 in all, are:
+= -- 128
+> -- 75
+< -- 2
++ -- 27
+- -- 22
+* -- 106
+:= -- 231
+add.period$ -- 16
+call.type$ -- 5
+change.case$ -- 5
+chr.to.int$ -- 0
+cite$ -- 5
+duplicate$ -- 63
+empty$ -- 134
+format.name$ -- 22
+if$ -- 323
+int.to.chr$ -- 0
+int.to.str$ -- 5
+missing$ -- 5
+newline$ -- 28
+num.names$ -- 5
+pop$ -- 15
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 31
+stack$ -- 0
+substring$ -- 100
+swap$ -- 19
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 17
+width$ -- 6
+write$ -- 58
