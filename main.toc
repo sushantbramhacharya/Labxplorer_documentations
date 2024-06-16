@@ -1,12 +1,11 @@
-\contentsline {chapter}{COPYRIGHT}{iii}{chapter*.1}%
-\contentsline {chapter}{DECLARATION}{iv}{chapter*.2}%
-\contentsline {chapter}{RECOMMENDATION}{v}{chapter*.3}%
-\contentsline {chapter}{DEPARTMENTAL ACCEPTANCE}{vi}{chapter*.4}%
-\contentsline {chapter}{ACKNOWLEDGMENT}{vii}{chapter*.5}%
-\contentsline {chapter}{ABSTRACT}{viii}{chapter*.6}%
-\contentsline {chapter}{TABLE OF CONTENTS}{ix}{chapter*.7}%
-\contentsline {chapter}{LIST OF FIGURES}{xi}{chapter*.8}%
-\contentsline {chapter}{LIST OF ABBREVIATIONS}{xii}{chapter*.9}%
+\contentsline {chapter}{DECLARATION}{iii}{chapter*.1}%
+\contentsline {chapter}{RECOMMENDATION}{iv}{chapter*.2}%
+\contentsline {chapter}{DEPARTMENTAL ACCEPTANCE}{v}{chapter*.3}%
+\contentsline {chapter}{ACKNOWLEDGMENT}{vi}{chapter*.4}%
+\contentsline {chapter}{ABSTRACT}{vii}{chapter*.5}%
+\contentsline {chapter}{TABLE OF CONTENTS}{viii}{chapter*.6}%
+\contentsline {chapter}{LIST OF FIGURES}{x}{chapter*.7}%
+\contentsline {chapter}{LIST OF ABBREVIATIONS}{xi}{chapter*.8}%
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Problem Statement}{1}{section.1.2}%
@@ -24,17 +23,16 @@
 \contentsline {subsection}{\numberline {3.3.1}Economical Feasibility}{6}{subsection.3.3.1}%
 \contentsline {subsection}{\numberline {3.3.2}Operational Feasibility}{7}{subsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.3.3}Technical Feasibility}{7}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}System Design}{8}{section.3.4}%
+\contentsline {section}{\numberline {3.4}HIGH LEVEL DESIGN OF SYSTEM}{8}{section.3.4}%
 \contentsline {subsection}{\numberline {3.4.1}Architecture Design}{8}{subsection.3.4.1}%
 \contentsline {subsection}{\numberline {3.4.2}Data Modelling(ER-Diagram)}{9}{subsection.3.4.2}%
 \contentsline {subsection}{\numberline {3.4.3}Activity Diagram}{10}{subsection.3.4.3}%
 \contentsline {subsection}{\numberline {3.4.4}DFD}{11}{subsection.3.4.4}%
-\contentsline {subsection}{\numberline {3.4.5}Use Case Diagram}{12}{subsection.3.4.5}%
-\contentsline {chapter}{\numberline {4}IMPLEMENTATION}{13}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Tools Used}{13}{section.4.1}%
+\contentsline {chapter}{\numberline {4}IMPLEMENTATION}{12}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Tools Used}{12}{section.4.1}%
 \contentsline {chapter}{\numberline {5}CONCLUSION AND EXPECTED OUTCOMES}{15}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Conclusion}{15}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Expected Outcome}{15}{section.5.2}%
 \textbf {APPENDIX A}
 \contentsline {section}{\numberline {A.1}Project Schedule}{16}{section.1..1}%
-\contentsline {chapter}{REFERENCES}{17}{appendix*.17}%
+\contentsline {chapter}{REFERENCES}{17}{appendix*.15}%
