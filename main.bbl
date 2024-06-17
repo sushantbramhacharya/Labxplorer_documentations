@@ -1,37 +1,27 @@
 \begin{thebibliography}{1}
 
-\bibitem{korshunov2014social}
-Anton Korshunov, Ivan Beloborodov, Nazar Buzun, Valeriy Avanesov, Roman
-  Pastukhov, Kyrylo Chykhradze, Ilya Kozlov, Andrey Gomzin, Ivan Andrianov,
-  Andrey Sysoev, et~al.
-\newblock Social network analysis: methods and applications.
-\newblock {\em Proceedings of the Institute for System Programming of the RAS
-  (Proceedings of ISP RAS)}, 26(1):439--456, 2014.
+\bibitem{chandrashekhar2020teacher}
+Pantina Chandrashekhar, Malini Prabhakaran, Georg Gutjahr, Raghu Raman, and
+  Prema Nedungadi.
+\newblock Teacher perception of olabs pedagogy.
+\newblock In {\em Fourth International Congress on Information and
+  Communication Technology: ICICT 2019, London, Volume 2}, pages 419--426.
+  Springer, 2020.
 
-\bibitem{koch2018impact}
-Tanja Koch, Charlene Gerber, and Jeremias~J De~Klerk.
-\newblock The impact of social media on recruitment: Are you linkedin?
-\newblock {\em SA Journal of Human Resource Management}, 16(1):1--14, 2018.
+\bibitem{thompson2011khan}
+Clive Thompson.
+\newblock How khan academy is changing the rules of education.
+\newblock {\em Wired magazine}, 126:1--5, 2011.
 
-\bibitem{adaji2016towards}
-Ifeoma Adaji and Julita Vassileva.
-\newblock Towards understanding user participation in stack overflow using
-  profile data.
-\newblock In {\em Social Informatics: 8th International Conference, SocInfo
-  2016, Bellevue, WA, USA, November 11-14, 2016, Proceedings, Part II 8}, pages
-  3--13. Springer, 2016.
+\bibitem{perkins2006phet}
+Katherine Perkins, Wendy Adams, Michael Dubson, Noah Finkelstein, Sam Reid,
+  Carl Wieman, and Ron LeMaster.
+\newblock Phet: Interactive simulations for teaching and learning physics.
+\newblock {\em The physics teacher}, 44(1):18--23, 2006.
 
-\bibitem{celinska2018coding}
-Dorota Celi{\'n}ska.
-\newblock Coding together in a social network: collaboration among github
-  users.
-\newblock In {\em Proceedings of the 9th international conference on social
-  media and society}, pages 31--40, 2018.
-
-\bibitem{hata2022github}
-Hideaki Hata, Nicole Novielli, Sebastian Baltes, Raula~Gaikovina Kula, and
-  Christoph Treude.
-\newblock Github discussions: An exploratory study of early adoption.
-\newblock {\em Empirical Software Engineering}, 27:1--32, 2022.
+\bibitem{faas2017introduction}
+Travis Faas.
+\newblock {\em An introduction to HTML5 game development with Phaser. js}.
+\newblock AK Peters/CRC Press, 2017.
 
 \end{thebibliography}

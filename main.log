@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.4)  16 JUN 2024 12:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.4)  17 JUN 2024 15:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1438,22 +1438,22 @@ Package hyperref Info: Link coloring ON on input line 167.
 \openout2 = `0ACover/0cover.aux'.
 
  (0ACover/0cover.tex
-<img/Graphics/TUlogo.png, id=154, 440.64626pt x 512.91624pt>
-File: img/Graphics/TUlogo.png Graphic file (type png)
-<use img/Graphics/TUlogo.png>
-Package pdftex.def Info: img/Graphics/TUlogo.png  used on input line 5.
-(pdftex.def)             Requested size: 110.16129pt x 128.22874pt.
+<img/Graphics/LEC.jpeg, id=162, 200.75pt x 200.75pt>
+File: img/Graphics/LEC.jpeg Graphic file (type jpg)
+<use img/Graphics/LEC.jpeg>
+Package pdftex.def Info: img/Graphics/LEC.jpeg  used on input line 5.
+(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
  [1
 
 
-{C:/Users/Senbuu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Senbuu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./img/Graphics/TUlogo.png>])
+{C:/Users/Senbuu/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/Senbuu/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <./img/Graphics/LEC.jpeg>])
 \openout2 = `0ACover/1title.aux'.
 
  (0ACover/1title.tex
-File: img/Graphics/TUlogo.png Graphic file (type png)
-<use img/Graphics/TUlogo.png>
-Package pdftex.def Info: img/Graphics/TUlogo.png  used on input line 5.
-(pdftex.def)             Requested size: 110.16129pt x 128.22874pt.
+File: img/Graphics/LEC.jpeg Graphic file (type jpg)
+<use img/Graphics/LEC.jpeg>
+Package pdftex.def Info: img/Graphics/LEC.jpeg  used on input line 5.
+(pdftex.def)             Requested size: 150.56212pt x 150.56212pt.
  [2
 
 
@@ -1663,7 +1663,7 @@ Overfull \hbox (154.23212pt too wide) in paragraph at lines 9--21
 
  (1Introduction/introduction.tex
 Chapter 1.
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 20.
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 16.
 (C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 ) [1
@@ -1676,32 +1676,12 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 
  (2Literaturereview/literaturereview.tex
 Chapter 2.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 21--228
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--228
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--228
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--228
-
- []
-
 [3
 
 
 
 
-] [4] [5]
+]) [4] [5]
 \openout2 = `3Methodology/methodology.aux'.
 
  (3Methodology/methodology.tex
@@ -1711,67 +1691,62 @@ Chapter 3.
 
 
 
-]
-<Diagrams/Main_Block.png, id=288, 512.91624pt x 282.05376pt>
+] [7] [8] [9]
+<Diagrams/Main_Block.png, id=307, 693.59125pt x 272.01625pt>
 File: Diagrams/Main_Block.png Graphic file (type png)
 <use Diagrams/Main_Block.png>
-Package pdftex.def Info: Diagrams/Main_Block.png  used on input line 28.
-(pdftex.def)             Requested size: 413.93373pt x 227.62204pt.
+Package pdftex.def Info: Diagrams/Main_Block.png  used on input line 46.
+(pdftex.def)             Requested size: 413.54387pt x 162.18062pt.
 
-Overfull \hbox (15.16835pt too wide) in paragraph at lines 28--29
+Overfull \hbox (14.77849pt too wide) in paragraph at lines 46--47
 [][] 
  []
 
-[7] [8 <./Diagrams/Main_Block.png>]
-<Diagrams/er.drawio.png, id=299, 1416.29124pt x 884.30376pt>
+[10 <./Diagrams/Main_Block.png>]
+<Diagrams/er.drawio.png, id=314, 764.8575pt x 623.32875pt>
 File: Diagrams/er.drawio.png Graphic file (type png)
 <use Diagrams/er.drawio.png>
-Package pdftex.def Info: Diagrams/er.drawio.png  used on input line 36.
-(pdftex.def)             Requested size: 546.8406pt x 341.43306pt.
- [9 <./Diagrams/er.drawio.png>]
-<Diagrams/Activity.drawio.png, id=305, 674.52pt x 1286.8075pt>
+Package pdftex.def Info: Diagrams/er.drawio.png  used on input line 54.
+(pdftex.def)             Requested size: 488.78354pt x 398.33858pt.
+ [11 <./Diagrams/er.drawio.png>]
+<Diagrams/Activity.drawio.png, id=320, 447.6725pt x 643.40375pt>
 File: Diagrams/Activity.drawio.png Graphic file (type png)
 <use Diagrams/Activity.drawio.png>
-Package pdftex.def Info: Diagrams/Activity.drawio.png  used on input line 44.
-(pdftex.def)             Requested size: 223.71414pt x 426.79134pt.
- [10 <./Diagrams/Activity.drawio.png>]
-<Diagrams/DFD.drawio.png, id=311, 442.65375pt x 352.31625pt>
+Package pdftex.def Info: Diagrams/Activity.drawio.png  used on input line 62.
+(pdftex.def)             Requested size: 296.96756pt x 426.79134pt.
+ [12 <./Diagrams/Activity.drawio.png>]
+<Diagrams/DFD.drawio.png, id=326, 925.4575pt x 589.20125pt>
 File: Diagrams/DFD.drawio.png Graphic file (type png)
 <use Diagrams/DFD.drawio.png>
-Package pdftex.def Info: Diagrams/DFD.drawio.png  used on input line 52.
-(pdftex.def)             Requested size: 285.98564pt x 227.62204pt.
- [11 <./Diagrams/DFD.drawio.png>])
+Package pdftex.def Info: Diagrams/DFD.drawio.png  used on input line 70.
+(pdftex.def)             Requested size: 402.21773pt x 256.0748pt.
+
+Overfull \hbox (3.45235pt too wide) in paragraph at lines 70--71
+ [][] 
+ []
+
+[13 <./Diagrams/DFD.drawio.png>])
 \openout2 = `4ImplementationAndTesting/ImplementationAndTesting.aux'.
 
  (4ImplementationAndTesting/ImplementationAndTesting.tex
 Chapter 4.
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--23
-
- []
-
-[12
+) [14
 
 
 
 
-]) [13] [14]
+] [15] [16]
 \openout2 = `5ConclusionFuture/conclusion.aux'.
 
  (5ConclusionFuture/conclusion.tex
 Chapter 5.
-) [15
+) [17
 
 
 
 
 ] (Appendix/appendix1.tex
-<Diagrams/Gantt_Chart.png, id=334, 770.88pt x 578.16pt>
+<Diagrams/Gantt_Chart.png, id=349, 770.88pt x 578.16pt>
 File: Diagrams/Gantt_Chart.png Graphic file (type png)
 <use Diagrams/Gantt_Chart.png>
 Package pdftex.def Info: Diagrams/Gantt_Chart.png  used on input line 5.
@@ -1781,7 +1756,7 @@ Overfull \hbox (2.73608pt too wide) in paragraph at lines 5--6
  [][] 
  []
 
-) (Appendix/appendix2.tex) [16
+) (Appendix/appendix2.tex) [18
 
 
 
@@ -1790,24 +1765,24 @@ Overfull \hbox (2.73608pt too wide) in paragraph at lines 5--6
 Package caption Warning: Unused \captionsetup[table] on input line 131.
 See the caption package documentation for explanation.
 
-[17
+[19
 
 ] (main.aux (0ACover/0cover.aux) (0ACover/1title.aux) (0ACover/3declaration.aux) (0ACover/4recommendation.aux) (0ACover/5departmentAcceptance.aux) (0ACover/6acknowledgement.aux) (0HAbstract/abstract.aux) (0IAbbreviations/abbreviations.aux) (1Introduction/introduction.aux) (2Literaturereview/literaturereview.aux) (3Methodology/methodology.aux) (4ImplementationAndTesting/ImplementationAndTesting.aux) (5ConclusionFuture/conclusion.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 5F6A86C03A2919166BD7443772E85D36;5121.
+(rerunfilecheck)             Checksum: 5DD28E03E4ACFAFA6B3E2118618F1FB0;5496.
  ) 
 Here is how much of TeX's memory you used:
- 34146 strings out of 476411
- 675209 string characters out of 5788663
- 1862845 words of memory out of 5000000
- 53530 multiletter control sequences out of 15000+600000
- 536703 words of font info for 185 fonts, out of 8000000 for 9000
+ 34156 strings out of 476411
+ 675284 string characters out of 5788663
+ 1863845 words of memory out of 5000000
+ 53528 multiletter control sequences out of 15000+600000
+ 536932 words of font info for 190 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,8n,117p,1330b,571s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,8n,117p,1313b,581s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Senbuu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Senbuu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Senbuu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (28 pages, 345307 bytes).
+Output written on main.pdf (30 pages, 256908 bytes).
 PDF statistics:
- 379 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
- 34643 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 395 PDF objects out of 1000 (max. 8388607)
+ 80 named destinations out of 1000 (max. 500000)
+ 34659 words of extra memory for PDF output out of 35830 (max. 10000000)
 
