@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.4)  8 AUG 2024 08:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.4)  8 AUG 2024 08:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1438,7 +1438,7 @@ Package hyperref Info: Link coloring ON on input line 170.
 \openout2 = `0ACover/0cover.aux'.
 
  (0ACover/0cover.tex
-<img/Graphics/LEC.jpeg, id=182, 200.75pt x 200.75pt>
+<img/Graphics/LEC.jpeg, id=194, 200.75pt x 200.75pt>
 File: img/Graphics/LEC.jpeg Graphic file (type jpg)
 <use img/Graphics/LEC.jpeg>
 Package pdftex.def Info: img/Graphics/LEC.jpeg  used on input line 5.
@@ -1692,25 +1692,25 @@ Chapter 3.
 
 
 ] [7] [8] [9]
-<Diagrams/DFD.drawio.png, id=338, 925.4575pt x 589.20125pt>
+<Diagrams/DFD.drawio.png, id=353, 925.4575pt x 589.20125pt>
 File: Diagrams/DFD.drawio.png Graphic file (type png)
 <use Diagrams/DFD.drawio.png>
 Package pdftex.def Info: Diagrams/DFD.drawio.png  used on input line 43.
 (pdftex.def)             Requested size: 402.21773pt x 256.0748pt.
  [10] [11 <./Diagrams/DFD.drawio.png>]
-<Diagrams/er.drawio.png, id=349, 764.8575pt x 623.32875pt>
+<Diagrams/er.drawio.png, id=364, 764.8575pt x 623.32875pt>
 File: Diagrams/er.drawio.png Graphic file (type png)
 <use Diagrams/er.drawio.png>
 Package pdftex.def Info: Diagrams/er.drawio.png  used on input line 51.
 (pdftex.def)             Requested size: 488.78354pt x 398.33858pt.
  [12 <./Diagrams/er.drawio.png>]
-<Diagrams/Main_Block.png, id=355, 693.59125pt x 272.01625pt>
+<Diagrams/Main_Block.png, id=370, 693.59125pt x 272.01625pt>
 File: Diagrams/Main_Block.png Graphic file (type png)
 <use Diagrams/Main_Block.png>
 Package pdftex.def Info: Diagrams/Main_Block.png  used on input line 59.
 (pdftex.def)             Requested size: 413.54387pt x 162.18062pt.
  [13 <./Diagrams/Main_Block.png>]
-<Diagrams/Activity.drawio.png, id=361, 447.6725pt x 643.40375pt>
+<Diagrams/Activity.drawio.png, id=376, 447.6725pt x 643.40375pt>
 File: Diagrams/Activity.drawio.png Graphic file (type png)
 <use Diagrams/Activity.drawio.png>
 Package pdftex.def Info: Diagrams/Activity.drawio.png  used on input line 67.
@@ -1746,7 +1746,7 @@ Chapter 5.
 
 
 ] (Appendix/appendix1.tex
-<Diagrams/Gantt_Chart.png, id=397, 770.88pt x 578.16pt>
+<Diagrams/Gantt_Chart.png, id=412, 770.88pt x 578.16pt>
 File: Diagrams/Gantt_Chart.png Graphic file (type png)
 <use Diagrams/Gantt_Chart.png>
 Package pdftex.def Info: Diagrams/Gantt_Chart.png  used on input line 5.
@@ -1764,20 +1764,20 @@ See the caption package documentation for explanation.
 
 ] (main.aux (0ACover/0cover.aux) (0ACover/1title.aux) (0ACover/3declaration.aux) (0ACover/4recommendation.aux) (0ACover/5departmentAcceptance.aux) (0ACover/6acknowledgement.aux) (0HAbstract/abstract.aux) (0IAbbreviations/abbreviations.aux) (1Introduction/introduction.aux) (2Literaturereview/literaturereview.aux) (3Methodology/methodology.aux) (4ImplementationAndTesting/ImplementationAndTesting.aux) (5ConclusionFuture/conclusion.aux))
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: C3C4D7534EA25994711D2F4AE879DC1F;6462.
+(rerunfilecheck)             Checksum: 37E3B44D6DBA1B5BD880CB17BFF0E8C3;6980.
  ) 
 Here is how much of TeX's memory you used:
- 34176 strings out of 476411
- 675575 string characters out of 5788663
+ 34182 strings out of 476411
+ 675667 string characters out of 5788663
  1863845 words of memory out of 5000000
- 53537 multiletter control sequences out of 15000+600000
+ 53540 multiletter control sequences out of 15000+600000
  536768 words of font info for 189 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,8n,117p,1239b,587s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Senbuu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Senbuu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Senbuu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (34 pages, 266891 bytes).
+Output written on main.pdf (34 pages, 268944 bytes).
 PDF statistics:
- 445 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
- 34699 words of extra memory for PDF output out of 35830 (max. 10000000)
+ 460 PDF objects out of 1000 (max. 8388607)
+ 96 named destinations out of 1000 (max. 500000)
+ 34723 words of extra memory for PDF output out of 35830 (max. 10000000)
 

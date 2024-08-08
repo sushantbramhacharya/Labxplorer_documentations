@@ -38,6 +38,9 @@
 \contentsline {chapter}{\numberline {4}IMPLEMENTATION}{18}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Tools Used}{18}{section.4.1}%
 \contentsline {subsection}{\numberline {4.1.1}Implementation Details of Modules}{20}{subsection.4.1.1}%
+\contentsline {section}{\numberline {4.2}Testing}{20}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Test Cases for Unit Testing}{20}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Test Cases for System Testing}{20}{subsection.4.2.2}%
 \contentsline {chapter}{\numberline {5}CONCLUSION AND EXPECTED OUTCOMES}{21}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Conclusion}{21}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Lesson Learnt/ Outcome}{21}{section.5.2}%
