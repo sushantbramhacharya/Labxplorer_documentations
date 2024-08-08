@@ -8,33 +8,40 @@
 \contentsline {chapter}{LIST OF ABBREVIATIONS}{xi}{chapter*.8}%
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Problem Statement}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.2}Problem Statement }{1}{section.1.2}%
 \contentsline {section}{\numberline {1.3}Objectives}{1}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Scope}{2}{section.1.4}%
-\contentsline {section}{\numberline {1.5}Report Organisation}{2}{section.1.5}%
+\contentsline {section}{\numberline {1.4}Scope}{1}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Limitation}{2}{section.1.5}%
+\contentsline {section}{\numberline {1.6}Development methodology}{2}{section.1.6}%
+\contentsline {section}{\numberline {1.7}Report Organisation}{2}{section.1.7}%
 \contentsline {chapter}{\numberline {2}BACKGROUND AND LITERATURE REVIEW}{3}{chapter.2}%
 \contentsline {section}{\numberline {2.1}Background Study}{3}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Limitation}{3}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Literature Review}{3}{section.2.3}%
-\contentsline {chapter}{\numberline {3}METHODOLOGY}{6}{chapter.3}%
-\contentsline {section}{\numberline {3.1}System Development Approach}{6}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Requirement Analysis}{6}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Functional Requirements}{6}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Nonfunctional Requirements}{8}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Feasibility Analysis}{8}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Economical Feasibility}{9}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Operational Feasibility}{9}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Technical Feasibility}{9}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}High Level Design of System}{10}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Architecture Design}{10}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Data Modelling(ER-Diagram)}{11}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Activity Diagram}{12}{subsection.3.4.3}%
-\contentsline {subsection}{\numberline {3.4.4}DFD}{13}{subsection.3.4.4}%
-\contentsline {chapter}{\numberline {4}IMPLEMENTATION}{14}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Tools Used}{14}{section.4.1}%
-\contentsline {chapter}{\numberline {5}CONCLUSION AND EXPECTED OUTCOMES}{17}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Conclusion}{17}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Expected Outcome}{17}{section.5.2}%
+\contentsline {section}{\numberline {2.2}Literature Review}{3}{section.2.2}%
+\contentsline {chapter}{\numberline {3}SYSTEM ANALYSIS AND DESIGN}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}System Analysis}{6}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Requirement Analysis}{6}{subsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.1}Functional Requirements}{6}{subsubsection.3.1.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1.2}Nonfunctional Requirements}{8}{subsubsection.3.1.1.2}%
+\contentsline {section}{\numberline {3.2}Feasibility Analysis}{8}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Economical Feasibility}{9}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Operational Feasibility}{9}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Technical Feasibility}{10}{subsection.3.2.3}%
+\contentsline {section}{\numberline {3.3}Structured System Modelling }{10}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Processing Modling: DFD}{10}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Data Modelling(ER-Diagram)}{12}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Structured System Design}{13}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Architecture Design}{13}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Database Schema Design}{14}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Interface Design}{15}{subsection.3.4.3}%
+\contentsline {subsection}{\numberline {3.4.4}Physical DFD}{16}{subsection.3.4.4}%
+\contentsline {section}{\numberline {3.5}Algorithm Details}{17}{section.3.5}%
+\contentsline {chapter}{\numberline {4}IMPLEMENTATION}{18}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Tools Used}{18}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Implementation Details of Modules}{20}{subsection.4.1.1}%
+\contentsline {chapter}{\numberline {5}CONCLUSION AND EXPECTED OUTCOMES}{21}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Conclusion}{21}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Lesson Learnt/ Outcome}{21}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Work Remaining}{21}{section.5.3}%
 \textbf {APPENDIX A}
-\contentsline {section}{\numberline {A.1}Project Schedule}{18}{section.1..1}%
-\contentsline {chapter}{REFERENCES}{19}{appendix*.15}%
+\contentsline {section}{\numberline {A.1}Project Schedule}{22}{section.1..1}%
+\contentsline {chapter}{REFERENCES}{23}{appendix*.17}%

@@ -63,7 +63,7 @@
 
 %------ SET DOCUMENT GEOMETRY ------%
 \usepackage{geometry}
-\geometry{a4paper, left=1.5in, top=1.25in, bottom=1.25in, right=1.25in}
+\geometry{a4paper, left=1.25in, top=1in, bottom=1in, right=1in}
 
 
 %------ FORMAT CHAPTER, SECTION, AND SUBSECTION TITLE ------%
@@ -83,6 +83,9 @@
   \titlespacing{\section}{0pt}{0pt}{-1em}
   \titlespacing{\subsection}{0pt}{0pt}{-1em}
 
+  % Sub Section
+  \setcounter{secnumdepth}{3}
+  \titlespacing{\subsection}{0pt}{*1.5}{*0.5}
 
 %------ SET SPACING AND INDENTS ------%
 \renewcommand{\baselinestretch}{1.5} 
