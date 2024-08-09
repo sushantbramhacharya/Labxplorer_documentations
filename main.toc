@@ -5,7 +5,8 @@
 \contentsline {chapter}{ABSTRACT}{vii}{chapter*.5}%
 \contentsline {chapter}{TABLE OF CONTENTS}{viii}{chapter*.6}%
 \contentsline {chapter}{LIST OF FIGURES}{x}{chapter*.7}%
-\contentsline {chapter}{LIST OF ABBREVIATIONS}{xi}{chapter*.8}%
+\contentsline {chapter}{LIST OF TABLES}{xi}{chapter*.8}%
+\contentsline {chapter}{LIST OF ABBREVIATIONS}{xii}{chapter*.9}%
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
 \contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}%
 \contentsline {section}{\numberline {1.2}Problem Statement }{1}{section.1.2}%
@@ -36,7 +37,7 @@
 \contentsline {subsection}{\numberline {3.4.4}Physical DFD}{16}{subsection.3.4.4}%
 \contentsline {chapter}{\numberline {4}IMPLEMENTATION}{17}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Tools Used}{17}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Implementation Details of Modules}{20}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.1}Implementation Details of Modules}{19}{subsection.4.1.1}%
 \contentsline {subsection}{\numberline {4.1.2}Unit Testing Test Cases}{20}{subsection.4.1.2}%
 \contentsline {subsection}{\numberline {4.1.3}Test Cases for System Testing}{22}{subsection.4.1.3}%
 \contentsline {chapter}{\numberline {5}CONCLUSION AND ANALYSIS}{24}{chapter.5}%
@@ -45,4 +46,5 @@
 \contentsline {section}{\numberline {5.3}Work Remaining}{25}{section.5.3}%
 \textbf {APPENDIX A}
 \contentsline {section}{\numberline {A.1}Project Schedule}{26}{section.1..1}%
-\contentsline {chapter}{REFERENCES}{27}{appendix*.23}%
+\contentsline {section}{\numberline {A.2}Supervisor Consultation Form}{27}{section.1..2}%
+\contentsline {chapter}{REFERENCES}{28}{appendix*.28}%

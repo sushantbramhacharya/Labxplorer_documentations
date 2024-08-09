@@ -807,6 +807,10 @@ INPUT .\main.lof
 INPUT main.lof
 INPUT main.lof
 OUTPUT main.lof
+INPUT .\main.lot
+INPUT main.lot
+INPUT main.lot
+OUTPUT main.lot
 INPUT .\0IAbbreviations\abbreviations.tex
 INPUT .\0IAbbreviations\abbreviations.tex
 OUTPUT 0IAbbreviations\abbreviations.aux
@@ -869,13 +873,27 @@ INPUT .\Diagrams\Schema Design.png
 INPUT .\Diagrams\Schema Design.png
 INPUT .\Diagrams\Schema Design.png
 INPUT .\Diagrams\Schema Design.png
-INPUT .\Diagrams\Activity.drawio.png
-INPUT .\Diagrams\Activity.drawio.png
-INPUT Diagrams\Activity.drawio.png
-INPUT .\Diagrams\Activity.drawio.png
-INPUT .\Diagrams\Activity.drawio.png
-INPUT .\Diagrams\Activity.drawio.png
-INPUT .\Diagrams\Activity.drawio.png
+INPUT .\Diagrams\interface\home ui.png
+INPUT .\Diagrams\interface\home ui.png
+INPUT Diagrams\interface\home ui.png
+INPUT .\Diagrams\interface\home ui.png
+INPUT .\Diagrams\interface\home ui.png
+INPUT .\Diagrams\interface\home ui.png
+INPUT .\Diagrams\interface\home ui.png
+INPUT .\Diagrams\interface\capsule category ui.png
+INPUT .\Diagrams\interface\capsule category ui.png
+INPUT Diagrams\interface\capsule category ui.png
+INPUT .\Diagrams\interface\capsule category ui.png
+INPUT .\Diagrams\interface\capsule category ui.png
+INPUT .\Diagrams\interface\capsule category ui.png
+INPUT .\Diagrams\interface\capsule category ui.png
+INPUT .\Diagrams\interface\Capsules.png
+INPUT .\Diagrams\interface\Capsules.png
+INPUT Diagrams\interface\Capsules.png
+INPUT .\Diagrams\interface\Capsules.png
+INPUT .\Diagrams\interface\Capsules.png
+INPUT .\Diagrams\interface\Capsules.png
+INPUT .\Diagrams\interface\Capsules.png
 INPUT .\Diagrams\DFD.drawio.png
 INPUT .\Diagrams\DFD.drawio.png
 INPUT Diagrams\DFD.drawio.png
@@ -890,6 +908,13 @@ INPUT .\4ImplementationAndTesting\ImplementationAndTesting.tex
 INPUT .\4ImplementationAndTesting\ImplementationAndTesting.tex
 INPUT 4ImplementationAndTesting\ImplementationAndTesting.tex
 INPUT 4ImplementationAndTesting\ImplementationAndTesting.tex
+INPUT .\Diagrams\auth module.png
+INPUT .\Diagrams\auth module.png
+INPUT Diagrams\auth module.png
+INPUT .\Diagrams\auth module.png
+INPUT .\Diagrams\auth module.png
+INPUT .\Diagrams\auth module.png
+INPUT .\Diagrams\auth module.png
 INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
 INPUT .\5ConclusionFuture\conclusion.tex
 INPUT .\5ConclusionFuture\conclusion.tex
@@ -909,6 +934,13 @@ INPUT .\Diagrams\Gantt_Chart.png
 INPUT .\Diagrams\Gantt_Chart.png
 INPUT .\Diagrams\Gantt_Chart.png
 INPUT .\Diagrams\Gantt_Chart.png
+INPUT .\Diagrams\supervisor.jpg
+INPUT .\Diagrams\supervisor.jpg
+INPUT Diagrams\supervisor.jpg
+INPUT .\Diagrams\supervisor.jpg
+INPUT .\Diagrams\supervisor.jpg
+INPUT .\Diagrams\supervisor.jpg
+INPUT .\Diagrams\supervisor.jpg
 INPUT .\Appendix\appendix2.tex
 INPUT Appendix\appendix2.tex
 INPUT .\Appendix\appendix2.tex

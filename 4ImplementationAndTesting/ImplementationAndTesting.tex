@@ -32,6 +32,20 @@ Unity’s real-time rendering capabilities, coupled with its powerful physics en
 
 
 \subsection{Implementation Details of Modules}
+This subsection outlines the implementation specifics for each module, detailing the core functionalities and algorithms utilized. It covers the programming languages, frameworks, and tools used in development, along with the interaction and communication between modules. Key design patterns, data management strategies, and error-handling mechanisms are discussed to ensure optimal performance. Additionally, security measures and optimizations applied during implementation are highlighted.
+\newline
+\newline
+\textbf{Authentication Module}
+\newline
+The Authentication Module utilizes JSON Web Tokens (JWT) for secure user authentication. JWTs are compact, URL-safe tokens that encode user information, including a signature to verify the token's integrity. After a successful login, a JWT is generated and stored in an HTTP-only cookie, preventing unauthorized access via client-side scripts. The module also includes bcrypt hashing for securely storing user credentials and authentication middleware that checks the validity of the JWT on each request, ensuring only authenticated users can access protected resources.
+\begin{figure}[H]
+   \centering
+    \includegraphics[height = 10cm]{Diagrams/auth module.png}
+    \caption{Authnication Module}
+\end{figure}
+% \subsection{Algorithm Details}
+% Here are some of the algorithms of our simulation models:
+
 \subsection{Unit Testing Test Cases}
 Theses API unit testing are performed using Postman. API unit testing using Postman involves creating and sending requests to API endpoints to ensure they function correctly. You can write test scripts in Postman to validate responses against expected outcomes, such as status codes and response content. Postman also allows for automating tests using the Collection Runner and Newman for continuous integration and delivery.
 \begin{table}[H]
