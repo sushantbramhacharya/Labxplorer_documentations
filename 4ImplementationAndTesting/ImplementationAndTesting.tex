@@ -24,6 +24,102 @@ JavaScript is a programming language that is used to create interactive web page
 \textbf{Phaser}\\
 Phaser is a powerful and popular open-source HTML5 game framework designed for creating 2D games that can run in both web browsers and mobile environments. Developed by Photon Storm, Phaser is known for its versatility and ease of use, making it a favorite among both beginner and experienced game developers. The framework supports Canvas and WebGL rendering, automatically selecting the best option based on the device's capabilities. Phaser offers a robust set of features including physics engines (Arcade Physics, P2 Physics, and Matter.js), input handling, asset management, animations, and audio integration. Its component-based architecture allows developers to build complex games by combining reusable pieces of code, enhancing modularity and maintainability. With an active community, extensive documentation, and numerous tutorials, Phaser provides ample resources for learning and development, empowering creators to bring their game ideas to life efficiently.
 \subsection{Implementation Details of Modules}
-\section{Testing}
-\subsection{Test Cases for Unit Testing}
+\subsection{Unit Testing Test Cases}
+Theses API unit testing are performed using Postman. API unit testing using Postman involves creating and sending requests to API endpoints to ensure they function correctly. You can write test scripts in Postman to validate responses against expected outcomes, such as status codes and response content. Postman also allows for automating tests using the Collection Runner and Newman for continuous integration and delivery.
+\begin{table}[H]
+    \caption{Express Endpoint Testing: Capsules GET Methods}
+    \label{tab:express_endpoint_testing}
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|p{0.5in}|p{2.5in}|p{3in}|p{1.5in}|}
+            \hline
+            \textbf{Test No.} & \textbf{Test Case} & \textbf{Endpoint} & \textbf{ Output} \\
+            \hline
+            1 & Getting Capsules By Category & \texttt{/api/capsule/category?category\newline=physics} & Returns JSON response with Array of Objects with specific category \\
+            \hline
+            2 & Getting Capsules By Id & \texttt{/api/capsule/?capsuleId=1} & Returns JSON response with Object of Capsules with specific id  \\
+            \hline
+            3 & Getting All Capsules & \texttt{/api/capsule/all} & Returns JSON response with Array of Objects of Capsules \\
+            \hline
+        \end{tabular}%
+    }
+\end{table}
+\begin{table}[H]
+    \caption{Express Endpoint Testing: Capsules GET Methods}
+    \label{tab:express_endpoint_testing}
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|p{0.5in}|p{2.5in}|p{3in}|p{1.5in}|}
+            \hline
+            \textbf{Test No.} & \textbf{Test Case} & \textbf{Endpoint} & \textbf{ Output} \\
+            \hline
+            1 & Login user/admin endpoint & \texttt{/api/user/login\newline body: Username and Password} & Creates JWT token and sets an HTTP Only Cookie to the client side \\
+            \hline
+            2 & api/user/register & \texttt{/api/capsule/category?category\newline=physics} & Returns JSON response with Array of Objects with id \\
+            \hline
+           
+        \end{tabular}%
+    }
+\end{table}
+\begin{table}[H]
+    \caption{Express Endpoint Testing: User Methods}
+    \label{tab:express_endpoint_testing}
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|p{0.5in}|p{2.5in}|p{3in}|p{1.5in}|}
+            \hline
+            \textbf{Test No.} & \textbf{Test Case} & \textbf{Endpoint} & \textbf{ Output} \\
+            \hline
+            1 & Admin add capsule endpoint & \texttt{api/admin/add\newline body:capsule informations and images} & Sucessfully adds images in uploads folder and corresponding capsule into database  \\
+            \hline
+            
+        \end{tabular}%
+    }
+\end{table}
+\newpage
 \subsection{Test Cases for System Testing}
+System Testing involves a comprehensive evaluation of the entire PERN application, including both frontend and backend components. This phase aims to validate that all integrated parts of the system function correctly and cohesively. We will test the complete application flow to ensure seamless interaction between the frontend and backend, as well as to verify that the application meets its specified requirements and performs as expected.
+\begin{table}[H]
+    \caption{System/Application Testing: Capsules GET Methods}
+    \label{tab:express_endpoint_testing}
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|p{0.5in}|p{2.5in}|p{3in}|p{1.5in}|}
+            \hline
+            \textbf{Test No.} & \textbf{Test Case} & \textbf{Input} & \textbf{ Output} \\
+            \hline
+            1 & Acessing Specific Capsules By Id & \texttt{/capsule/8\newline} & Shows whole capsule its images, pdf and all its meta information with quiz \\
+            \hline
+            2 & Acessing Capsules Menu By Category & \texttt{/capsules/physics} & Shows cards, thumbnail, title, description and buttons about related category capsules  \\
+            \hline
+            3 & Getting All Capsules & \texttt{/learning-area} & Shows Learning Capsules with categories of each capsules \\
+            \hline
+        \end{tabular}%
+    }
+\end{table}
+\begin{table}[H]
+    \caption{System/Application Testing: Login}
+    \label{tab:express_endpoint_testing}
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|p{0.5in}|p{2.5in}|p{3in}|p{1.5in}|}
+            \hline
+            \textbf{Test No.} & \textbf{Test Case} & \textbf{Input} & \textbf{ Output} \\
+            \hline
+            1 & Login User & \texttt{/login\newline Input: Username 'test' and Password 'test'} & Creates JWT token and sets an HTTP Only Cookie to the client side and redirects user into profile page\\
+            \hline
+            1 & Login Admin & \texttt{/login\newline Input: Username 'Admin' and Password 'admin'} & Creates JWT token and sets an HTTP Only Cookie to the client side and redirects user into profile page also shows Admin Button for Admin Panel\\
+            \hline
+           
+        \end{tabular}%
+    }
+\end{table}
+\begin{table}[H]
+    \caption{System/Application Testing: User Methods}
+    \label{tab:express_endpoint_testing}
+    \resizebox{\textwidth}{!}{%
+        \begin{tabular}{|p{0.5in}|p{2.5in}|p{3in}|p{1.5in}|}
+            \hline
+            \textbf{Test No.} & \textbf{Test Case} & \textbf{Input} & \textbf{ Output} \\
+            \hline
+            1 & Admin add capsule & \texttt{/admin/add} & Shows Form to add capsules and adds capsules when submitted  \\
+            \hline
+            
+        \end{tabular}%
+    }
+\end{table}
