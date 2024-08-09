@@ -43,8 +43,9 @@
 \contentsline {chapter}{\numberline {5}CONCLUSION AND ANALYSIS}{24}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Conclusion}{24}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Work Completed}{24}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Work Remaining}{25}{section.5.3}%
+\contentsline {subsection}{\numberline {5.2.1}Screenshots of Outcomes}{25}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Work Remaining}{30}{section.5.3}%
 \textbf {APPENDIX A}
-\contentsline {section}{\numberline {A.1}Project Schedule}{26}{section.1..1}%
-\contentsline {section}{\numberline {A.2}Supervisor Consultation Form}{27}{section.1..2}%
-\contentsline {chapter}{REFERENCES}{28}{appendix*.28}%
+\contentsline {section}{\numberline {A.1}Project Schedule}{31}{section.1..1}%
+\contentsline {section}{\numberline {A.2}Supervisor Consultation Form}{32}{section.1..2}%
+\contentsline {chapter}{REFERENCES}{33}{appendix*.45}%
