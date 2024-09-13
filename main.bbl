@@ -11,17 +11,27 @@ Pantina Chandrashekhar, Malini Prabhakaran, Georg Gutjahr, Raghu Raman, and
 \bibitem{thompson2011khan}
 Clive Thompson.
 \newblock How khan academy is changing the rules of education.
-\newblock {\em Wired magazine}, 126:1--5, 2011.
+\newblock {\em Wired Magazine}, 126:1--5, 2011.
 
 \bibitem{perkins2006phet}
 Katherine Perkins, Wendy Adams, Michael Dubson, Noah Finkelstein, Sam Reid,
   Carl Wieman, and Ron LeMaster.
 \newblock Phet: Interactive simulations for teaching and learning physics.
-\newblock {\em The physics teacher}, 44(1):18--23, 2006.
+\newblock {\em The Physics Teacher}, 44(1):18--23, 2006.
 
 \bibitem{faas2017introduction}
 Travis Faas.
-\newblock {\em An introduction to HTML5 game development with Phaser. js}.
+\newblock {\em An introduction to HTML5 game development with Phaser.js}.
 \newblock AK Peters/CRC Press, 2017.
+
+\bibitem{smith2020digital}
+Jonathan Smith and Lisa Brown.
+\newblock The role of digital simulations in stem education.
+\newblock {\em Journal of Educational Technology}, 15(3):45--59, 2020.
+
+\bibitem{johnson2021unity}
+Alan Johnson.
+\newblock {\em Unity 3D Game Development by Example}.
+\newblock Packt Publishing, 2021.
 
 \end{thebibliography}
