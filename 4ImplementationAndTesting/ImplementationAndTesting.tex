@@ -34,14 +34,19 @@ Unity’s real-time rendering capabilities, coupled with its powerful physics en
 \subsection{Implementation Details of Modules}
 This subsection outlines the implementation specifics for each module, detailing the core functionalities and algorithms utilized. It covers the programming languages, frameworks, and tools used in development, along with the interaction and communication between modules. Key design patterns, data management strategies, and error-handling mechanisms are discussed to ensure optimal performance. Additionally, security measures and optimizations applied during implementation are highlighted.
 \newline
-\newline
+\textbf{User Registration Module}
+\begin{figure}[H]
+    \centering
+     \includegraphics[height = 7cm]{Diagrams/register_module.png}
+     \caption{Registration Module}
+ \end{figure}
 \textbf{Authentication Module}
 \newline
 The Authentication Module utilizes JSON Web Tokens (JWT) for secure user authentication. JWTs are compact, URL-safe tokens that encode user information, including a signature to verify the token's integrity. After a successful login, a JWT is generated and stored in an HTTP-only cookie, preventing unauthorized access via client-side scripts. The module also includes bcrypt hashing for securely storing user credentials and authentication middleware that checks the validity of the JWT on each request, ensuring only authenticated users can access protected resources.
 \begin{figure}[H]
    \centering
     \includegraphics[height = 10cm]{Diagrams/auth module.png}
-    \caption{Authnication Module}
+    \caption{Authentication Module}
 \end{figure}
 % \subsection{Algorithm Details}
 % Here are some of the algorithms of our simulation models:
@@ -97,12 +102,12 @@ Theses API unit testing are performed using Postman. API unit testing using Post
 \end{table}
 \newpage
 \subsection{Test Cases for System Testing}
-System Testing involves a comprehensive evaluation of the entire PERN application, including both frontend and backend components. This phase aims to validate that all integrated parts of the system function correctly and cohesively. We will test the complete application flow to ensure seamless interaction between the frontend and backend, as well as to verify that the application meets its specified requirements and performs as expected.
+The objective of System Testing is to conduct a comprehensive evaluation of the entire PERN application, encompassing both frontend and backend components. This testing phase aims to validate the correct and cohesive functioning of all integrated parts of the system.
 \begin{table}[H]
     \caption{System/Application Testing: Capsules GET Methods}
     \label{tab:express_endpoint_testing}
     \resizebox{\textwidth}{!}{%
-        \begin{tabular}{|p{0.5in}|p{2.5in}|p{3in}|p{1.5in}|}
+        \begin{tabular}{|p{0.5in}|p{2.5in}|p{2in}|p{2.5in}|}
             \hline
             \textbf{Test No.} & \textbf{Test Case} & \textbf{Input} & \textbf{ Output} \\
             \hline

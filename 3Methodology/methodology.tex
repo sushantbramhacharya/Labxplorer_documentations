@@ -1,6 +1,6 @@
 \chapter{SYSTEM ANALYSIS AND DESIGN}
 \section{System Analysis}
-We are following a structured approach that employs Rapid Application Development (RAD) methodology. This method breaks down the larger project into smaller, manageable steps, allowing for incremental progress through a series of iterations. We develop individual modules and integrate them, focusing on delivering and refining smaller portions of work. This approach ensures continuous improvement and alignment with our overall goals while effectively managing the project and incorporating ongoing feedback and adjustments.
+The project is following a structured approach that utilizes the Rapid Application Development (RAD) methodology. This approach segments the project into smaller, manageable components, allowing for incremental progress through iterative development. Individual modules are developed and integrated progressively, focusing on delivering and refining smaller segments. This method ensures continuous improvement and alignment with the overall goals while effectively managing the project through ongoing feedback and adjustments.
 \subsection{Requirement Analysis}
 Requirement analysis is a critical phase in the software development lifecycle that focuses on understanding and documenting the needs and expectations of stakeholders. This process involves gathering detailed information about what users require from a system, which includes identifying functional requirements (what the system should do), non-functional requirements (how the system should perform), and constraints (limitations or restrictions). The goal is to create a comprehensive and clear specification that guides the development team in designing and implementing the system. Effective requirement analysis ensures that the final product aligns with user needs and business objectives, reduces the risk of project failure, and facilitates efficient communication among stakeholders. By thoroughly analyzing requirements, teams can address potential issues early, prioritize features, and ensure a smoother development process.
 \subsubsection{Functional Requirements}The functional requirements of LabXplorerX are mentioned below:
@@ -29,45 +29,112 @@ The nonfunctional requirements of LabXplorerX are mentioned below:
 \section{Feasibility Analysis}
 A feasibility study is a systematic and structured analysis conducted to determine the viability and practicality of a proposed project plan. It serves as an evaluation tool to assess whether the project can be successfully implemented and if it aligns with the organization's goals and objectives. It involves gathering and analyzing relevant information to determine if the project is technically feasible, operationally feasible, economically feasible, and scheduling feasible.
 \subsection{Economical Feasibility}
-Since the proposed system involves developing a web application, we will utilize a range of free and open-source software development tools. For the frontend, we will use \textbf{React}, a popular JavaScript library for building dynamic and interactive user interfaces. On the backend, \textbf{Express}, a minimal and flexible Node.js web application framework, will be employed to handle server-side logic and HTTP requests. For database management, we will utilize \textbf{PostgreSQL}, an open-source relational database management system known for its reliability and performance. To create interactive simulations, we will use \textbf{Phaser}, a robust HTML5 game framework, and \textbf{Unity}, a powerful cross-platform game engine, for more complex simulations and 3D elements. Additionally, we will need to allocate funds for economical server hosting to ensure the application is accessible to users while managing costs effectively.
+The development of the web application will utilize a range of free and open-source software development tools. For the frontend, React, a popular JavaScript library for building dynamic and interactive user interfaces, will be used. On the backend, Express, a minimal and flexible Node.js web application framework, will handle server-side logic and HTTP requests. PostgreSQL, an open-source relational database management system known for its reliability and performance, will be employed for database management. Interactive simulations will be created using Phaser, a robust HTML5 game framework, while Unity, a powerful cross-platform game engine, will be used for more complex simulations and 3D elements. Additionally, funds will be allocated for economical server hosting to ensure the application remains accessible to users while managing costs effectively.
 \subsection{Operational Feasibility}
-LabXplorerX prioritizes operational feasibility by adopting a user-centric design approach, emphasizing simplicity and ease of use. The system is designed to be highly interactive, enabling both students and educators to navigate effortlessly without needing extensive technical knowledge. The user interface (UI) features a clean layout and intuitive controls, providing a seamless experience when accessing virtual environment and educational resources. By minimizing the need for extensive training and reducing potential barriers to adoption, LabXplorerX enhances user acceptance and engagement. Overall, its straightforward design promotes effective use of the app's features, supporting educational activities and fostering a positive user experience.
+LabXplorerX prioritizes operational feasibility through a user-centric design approach, emphasizing simplicity and ease of use. The system is highly interactive, enabling both students and educators to navigate effortlessly without requiring extensive technical knowledge. The user interface (UI) features a clean layout and intuitive controls, ensuring a seamless experience when accessing virtual environments and educational resources. By minimizing the need for extensive training and reducing potential barriers to adoption, LabXplorerX enhances user acceptance and engagement. The straightforward design promotes effective use of the app's features, supports educational activities, and fosters a positive user experience.
 \subsection{Technical Feasibility}
-Combining Express.js with React and PostgreSQL offers a robust and scalable solution for developing modern applications. Express.js, built on Node.js, provides an efficient backend framework for creating RESTful APIs and managing server-side logic. PostgreSQL, renowned for its reliability and advanced data management features, serves as a solid foundation for secure and efficient data storage and querying. On the frontend, React enables the creation of responsive and visually appealing applications across multiple platforms using a single codebase. This stack leverages the strengths of each technology: Express.js for backend scalability and API development, PostgreSQL for comprehensive data handling, and React for seamless and dynamic UI development. Supported by active communities and extensive documentation, this combination ensures ample technical support, resources, and flexibility for both deployment and maintenance, making it an ideal choice for delivering modern, interactive applications.
+Combining Express.js with React and PostgreSQL offers a robust and scalable solution for developing modern applications. Express.js, built on Node.js, provides an efficient backend framework for creating RESTful APIs and managing server-side logic. PostgreSQL, known for its reliability and advanced data management features, serves as a solid foundation for secure and efficient data storage and querying. On the frontend, React facilitates the creation of responsive and visually appealing applications across multiple platforms using a single codebase. This stack leverages the strengths of each technology: Express.js for backend scalability and API development, PostgreSQL for comprehensive data handling, and React for seamless and dynamic UI development. Supported by active communities and extensive documentation, this combination ensures ample technical support, resources, and flexibility for both deployment and maintenance, making it an ideal choice for delivering modern, interactive applications.
 \section{Structured System Modelling }
-Structured system modeling is a methodical approach for designing complex systems by breaking them into manageable components and using formal diagrams and tools. It helps in clearly defining system requirements, workflows, and interactions.
+Structured system modeling is a methodical approach used to design complex systems by decomposing them into manageable components and utilizing formal diagrams and tools. This approach aids in clearly defining system requirements, workflows, and interactions. By breaking down a system into its constituent parts, structured system modeling facilitates a thorough understanding of its structure and behavior. The use of formal diagrams and tools ensures that all aspects of the system are documented and analyzed systematically, which enhances clarity, communication, and accuracy throughout the design process. This methodical approach supports the creation of well-organized and efficient systems, improving overall design quality and project outcomes.
 \newpage
-\subsection{Processing Modling: DFD}
+\subsection{Process Modeling: DFD}
 Processing Modeling Data Flow Diagrams (DFDs) visually represent the flow of data within a system, showing how inputs are processed into outputs. They help in understanding the system's functionality and data movement, aiding in the design and analysis of processes.
 \begin{figure}[H]
     \centering
-    \includegraphics[height = 18cm]{Diagrams/DFD Process Modeling.png}
-    \caption{Process Modelling}
+    \rotatebox{90}{
+        \includegraphics[height = 12cm]{Diagrams/DFD.drawio.png}
+    }
+    \caption{Process Model: Logical DFD}
 \end{figure}
 \newpage
+\newpage
 \subsection{Data Modelling(ER-Diagram)}
-ER Diagram is mainly used to design database schema. With the help of below ER diagram we can easily design database in SQL.
+The Entity-Relationship (ER) Diagram is primarily used to design a database schema. The ER diagram provided below facilitates the creation of a database in SQL by clearly illustrating the entities, their attributes, and the relationships between them. This visual representation helps in structuring the database effectively, ensuring that all necessary data elements and their interconnections are accounted for.
+\section*{Entities and Attributes}
+\begin{itemize}
+    \item \textbf{Users}
+    \begin{itemize}
+        \item \texttt{id}: Unique identifier for the user.
+        \item \texttt{username}: The name of the user.
+        \item \texttt{email}: Email of the user.
+        \item \texttt{password}: Password for user authentication.
+        \item \texttt{email\_verification\_token}: Token to verify the email.
+        \item \texttt{email\_verified}: Status indicating whether the user's email is verified.
+    \end{itemize}
+    
+    \item \textbf{Capsules}
+    \begin{itemize}
+        \item \texttt{id}: Unique identifier for the capsule.
+        \item \texttt{title}: Title of the capsule.
+        \item \texttt{description}: Description of the capsule.
+        \item \texttt{thumbnail}: Image representing the capsule.
+        \item \texttt{images}: Additional images related to the capsule.
+        \item \texttt{pdf}: PDF documents associated with the capsule.
+        \item \texttt{category}: The category to which the capsule belongs.
+        \item \texttt{author\_id}: Reference to the user who created the capsule.
+    \end{itemize}
+    
+    \item \textbf{Simulations}
+    \begin{itemize}
+        \item \texttt{id}: Unique identifier for the simulation.
+        \item \texttt{title}: Title of the simulation.
+        \item \texttt{description}: Description of the simulation.
+        \item \texttt{link}: URL or reference to the simulation.
+        \item \texttt{category}: The category of the simulation.
+    \end{itemize}
+    
+    \item \textbf{Comments}
+    \begin{itemize}
+        \item \texttt{comment\_id}: Unique identifier for the comment.
+        \item \texttt{comment\_text}: The text of the comment.
+        \item \texttt{user\_id}: Reference to the user who made the comment.
+        \item \texttt{capsule\_id}: Reference to the capsule that was commented on.
+    \end{itemize}
+    
+    \item \textbf{Quiz}
+    \begin{itemize}
+        \item \texttt{quiz\_id}: Unique identifier for the quiz.
+        \item \texttt{title}: Title of the quiz.
+        \item \texttt{category}: The category of the quiz.
+        \item \texttt{capsule\_id}: Reference to the capsule related to the quiz.
+    \end{itemize}
+    \item \textbf{Options}
+    \begin{itemize}
+        \item \texttt{option\_id}: Unique identifier for the option.
+        \item \texttt{option\_text}: Text of the quiz option.
+        \item \texttt{is\_correct}: Boolean indicating if the option is correct.
+        \item \texttt{quiz\_id}: Reference to the quiz.
+    \end{itemize}
+    
+    \item \textbf{Favorites}
+    \begin{itemize}
+        \item \texttt{user\_id}: Reference to the user.
+        \item \texttt{capsule\_id}: Reference to the capsule marked as a favorite.
+    \end{itemize}
+\end{itemize}
 \begin{figure}[H]
     \centering
     \rotatebox{90}{
-        \includegraphics[height=7.5cm]{Diagrams/er.drawio.png}
+        \includegraphics[height=10.5cm]{Diagrams/er.drawio.png}
     }
     \caption{ER Diagram of System Data}
 \end{figure}
 \newpage
 \section{Structured System Design}
 \subsection{Architecture Design}
-The following diagram shows diagram of our Architecture. Mainly shows what are the functions can be accessed after starting our application.
+The following diagram illustrates the architecture of our application. The application is structured using a three-tier architecture to ensure a clear separation of concerns and efficient functionality. The Presentation Layer, built with React.js, manages the user interface and user interactions. The Business Logic Layer, developed with Node.js and Express, handles core operations through middleware, routes, models, controllers, and utilities. Finally, the Data Management Layer uses PostgreSQL for relational database management and local server storage for handling files.
 \begin{figure}[H]
-    \includegraphics[height = 11cm]{Diagrams/Main_Block.png}
-    \caption{Main Architecture of System}
+    \centering
+    \includegraphics[height=16cm]{Diagrams/Main_Block.png}
+    \caption{Three Tier Architecture of System}
 \end{figure}
+
 \newpage
 \subsection{Database Schema Design}
-An activity diagram visually presents a series of actions or flow of control in a system similar to a flowchart or a data flow diagram. This diagram showed how our program flow goes on.
+The schema design details the tables, their attributes, and the relationships between them, ensuring that data is stored efficiently and consistently. This design includes defining primary keys to uniquely identify records, foreign keys to establish relationships between tables, and constraints to maintain data integrity. The schema design provides a clear blueprint for creating and managing the database, supporting effective data organization and retrieval as per the application’s requirements.
 \begin{figure}[H]
    \centering
-    \includegraphics[height = 18cm]{Diagrams/Schema Design.png}
+    \includegraphics[height = 17cm]{Diagrams/Schema Design.png}
     \caption{Schema Design}
 \end{figure}
 \newpage
@@ -91,13 +158,11 @@ Here are the UI/UX Designs created for this project:
  \end{figure}
 \newpage
 \subsection{Physical DFD}
-DFD or Data Flow Diagram is mainly used to show how data are being flowed in and out of our system. There are 3 levels of DFD i.e Context Level(Level 0),Level 1 and Level 2
+This Physical Data Flow Diagram (DFD) outlines the architecture of a web application with a clear separation of frontend and backend components. On the backend, Express (Node.js) handles the server-side logic, with middleware for authentication and error handling, routes for user, admin, and capsules, asynchronous controllers for managing requests, and a PostgreSQL database for storing data. Static files, including Unity simulations, are served from the backend. The frontend is built with React.js, utilizing React Router for navigation and RTK slices and APIs for state management. Screens and UI components, along with Phaser simulations, allow users to interact with backend data and display both static and dynamic simulations. The central store handles state management locally across components.
 \begin{figure}[H]
     \centering
-    \rotatebox{90}{
-        \includegraphics[height = 12cm]{Diagrams/DFD.drawio.png}
-    }
-    \caption{Physical DFD}
+    \includegraphics[height = 14cm]{Diagrams/DFD Process Modeling.png}
+    \caption{Process Modelling}
 \end{figure}
-\newpage
+
 % \section{Algorithm Details}

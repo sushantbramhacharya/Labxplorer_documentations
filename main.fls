@@ -617,6 +617,9 @@ INPUT 0ACover\3declaration.aux
 INPUT .\0ACover\4recommendation.aux
 INPUT 0ACover\4recommendation.aux
 INPUT 0ACover\4recommendation.aux
+INPUT .\LetterOfApproval\letter.aux
+INPUT LetterOfApproval\letter.aux
+INPUT LetterOfApproval\letter.aux
 INPUT .\0ACover\5departmentAcceptance.aux
 INPUT 0ACover\5departmentAcceptance.aux
 INPUT 0ACover\5departmentAcceptance.aux
@@ -683,13 +686,13 @@ INPUT .\0ACover\0cover.tex
 INPUT .\0ACover\0cover.tex
 INPUT 0ACover\0cover.tex
 INPUT 0ACover\0cover.tex
-INPUT .\img\Graphics\LEC.jpeg
-INPUT .\img\Graphics\LEC.jpeg
-INPUT img\Graphics\LEC.jpeg
-INPUT .\img\Graphics\LEC.jpeg
-INPUT .\img\Graphics\LEC.jpeg
-INPUT .\img\Graphics\LEC.jpeg
-INPUT .\img\Graphics\LEC.jpeg
+INPUT .\img\Graphics\lec.jpg
+INPUT .\img\Graphics\lec.jpg
+INPUT img\Graphics\lec.jpg
+INPUT .\img\Graphics\lec.jpg
+INPUT .\img\Graphics\lec.jpg
+INPUT .\img\Graphics\lec.jpg
+INPUT .\img\Graphics\lec.jpg
 INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
@@ -705,10 +708,10 @@ INPUT .\0ACover\1title.tex
 INPUT .\0ACover\1title.tex
 INPUT 0ACover\1title.tex
 INPUT 0ACover\1title.tex
-INPUT .\img\Graphics\LEC.jpeg
-INPUT .\img\Graphics\LEC.jpeg
-INPUT img\Graphics\LEC.jpeg
-INPUT .\img\Graphics\LEC.jpeg
+INPUT .\img\Graphics\lec.jpg
+INPUT .\img\Graphics\lec.jpg
+INPUT img\Graphics\lec.jpg
+INPUT .\img\Graphics\lec.jpg
 INPUT .\0ACover\3declaration.tex
 INPUT .\0ACover\3declaration.tex
 OUTPUT 0ACover\3declaration.aux
@@ -725,6 +728,69 @@ INPUT .\0ACover\4recommendation.tex
 INPUT .\0ACover\4recommendation.tex
 INPUT 0ACover\4recommendation.tex
 INPUT 0ACover\4recommendation.tex
+INPUT .\LetterOfApproval\letter.tex
+INPUT .\LetterOfApproval\letter.tex
+OUTPUT LetterOfApproval\letter.aux
+INPUT .\LetterOfApproval\letter.tex
+INPUT .\LetterOfApproval\letter.tex
+INPUT LetterOfApproval\letter.tex
+INPUT LetterOfApproval\letter.tex
+INPUT .\img\Graphics\lec.jpg
+INPUT .\img\Graphics\lec.jpg
+INPUT img\Graphics\lec.jpg
+INPUT .\img\Graphics\lec.jpg
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omlztmcm.fd
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omlztmcm.fd
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omlztmcm.fd
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omlztmcm.fd
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsztmcm.fd
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsztmcm.fd
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsztmcm.fd
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsztmcm.fd
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omxztmcm.fd
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omxztmcm.fd
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omxztmcm.fd
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omxztmcm.fd
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msa.cfg
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msa.cfg
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msa.cfg
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msa.cfg
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msb.cfg
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msb.cfg
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msb.cfg
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msb.cfg
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT .\0ACover\5departmentAcceptance.tex
 INPUT .\0ACover\5departmentAcceptance.tex
 OUTPUT 0ACover\5departmentAcceptance.aux
@@ -732,6 +798,7 @@ INPUT .\0ACover\5departmentAcceptance.tex
 INPUT .\0ACover\5departmentAcceptance.tex
 INPUT 0ACover\5departmentAcceptance.tex
 INPUT 0ACover\5departmentAcceptance.tex
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 INPUT .\0ACover\6acknowledgement.tex
 INPUT .\0ACover\6acknowledgement.tex
 OUTPUT 0ACover\6acknowledgement.aux
@@ -746,7 +813,6 @@ INPUT .\0HAbstract\abstract.tex
 INPUT .\0HAbstract\abstract.tex
 INPUT 0HAbstract\abstract.tex
 INPUT 0HAbstract\abstract.tex
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmri7t.vf
 INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
@@ -754,54 +820,6 @@ INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t
 INPUT .\main.toc
 INPUT main.toc
 INPUT main.toc
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omlztmcm.fd
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omlztmcm.fd
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omlztmcm.fd
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omlztmcm.fd
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsztmcm.fd
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsztmcm.fd
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsztmcm.fd
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omsztmcm.fd
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omxztmcm.fd
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omxztmcm.fd
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omxztmcm.fd
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\omxztmcm.fd
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msa.cfg
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msa.cfg
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msa.cfg
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msa.cfg
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msb.cfg
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msb.cfg
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msb.cfg
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\microtype\mt-msb.cfg
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmb7t.vf
 OUTPUT main.toc
 INPUT .\main.lof
 INPUT main.lof
@@ -845,13 +863,14 @@ INPUT .\3Methodology\methodology.tex
 INPUT .\3Methodology\methodology.tex
 INPUT 3Methodology\methodology.tex
 INPUT 3Methodology\methodology.tex
-INPUT .\Diagrams\DFD Process Modeling.png
-INPUT .\Diagrams\DFD Process Modeling.png
-INPUT Diagrams\DFD Process Modeling.png
-INPUT .\Diagrams\DFD Process Modeling.png
-INPUT .\Diagrams\DFD Process Modeling.png
-INPUT .\Diagrams\DFD Process Modeling.png
-INPUT .\Diagrams\DFD Process Modeling.png
+INPUT .\Diagrams\DFD.drawio.png
+INPUT .\Diagrams\DFD.drawio.png
+INPUT Diagrams\DFD.drawio.png
+INPUT .\Diagrams\DFD.drawio.png
+INPUT .\Diagrams\DFD.drawio.png
+INPUT .\Diagrams\DFD.drawio.png
+INPUT .\Diagrams\DFD.drawio.png
+INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
 INPUT .\Diagrams\er.drawio.png
 INPUT .\Diagrams\er.drawio.png
 INPUT Diagrams\er.drawio.png
@@ -894,13 +913,13 @@ INPUT .\Diagrams\interface\Capsules.png
 INPUT .\Diagrams\interface\Capsules.png
 INPUT .\Diagrams\interface\Capsules.png
 INPUT .\Diagrams\interface\Capsules.png
-INPUT .\Diagrams\DFD.drawio.png
-INPUT .\Diagrams\DFD.drawio.png
-INPUT Diagrams\DFD.drawio.png
-INPUT .\Diagrams\DFD.drawio.png
-INPUT .\Diagrams\DFD.drawio.png
-INPUT .\Diagrams\DFD.drawio.png
-INPUT .\Diagrams\DFD.drawio.png
+INPUT .\Diagrams\DFD Process Modeling.png
+INPUT .\Diagrams\DFD Process Modeling.png
+INPUT Diagrams\DFD Process Modeling.png
+INPUT .\Diagrams\DFD Process Modeling.png
+INPUT .\Diagrams\DFD Process Modeling.png
+INPUT .\Diagrams\DFD Process Modeling.png
+INPUT .\Diagrams\DFD Process Modeling.png
 INPUT .\4ImplementationAndTesting\ImplementationAndTesting.tex
 INPUT .\4ImplementationAndTesting\ImplementationAndTesting.tex
 OUTPUT 4ImplementationAndTesting\ImplementationAndTesting.aux
@@ -908,6 +927,13 @@ INPUT .\4ImplementationAndTesting\ImplementationAndTesting.tex
 INPUT .\4ImplementationAndTesting\ImplementationAndTesting.tex
 INPUT 4ImplementationAndTesting\ImplementationAndTesting.tex
 INPUT 4ImplementationAndTesting\ImplementationAndTesting.tex
+INPUT .\Diagrams\register_module.png
+INPUT .\Diagrams\register_module.png
+INPUT Diagrams\register_module.png
+INPUT .\Diagrams\register_module.png
+INPUT .\Diagrams\register_module.png
+INPUT .\Diagrams\register_module.png
+INPUT .\Diagrams\register_module.png
 INPUT .\Diagrams\auth module.png
 INPUT .\Diagrams\auth module.png
 INPUT Diagrams\auth module.png
@@ -915,7 +941,6 @@ INPUT .\Diagrams\auth module.png
 INPUT .\Diagrams\auth module.png
 INPUT .\Diagrams\auth module.png
 INPUT .\Diagrams\auth module.png
-INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt12.tfm
 INPUT .\5ConclusionFuture\conclusion.tex
 INPUT .\5ConclusionFuture\conclusion.tex
 OUTPUT 5ConclusionFuture\conclusion.aux
@@ -1081,6 +1106,9 @@ INPUT 0ACover\3declaration.aux
 INPUT .\0ACover\4recommendation.aux
 INPUT 0ACover\4recommendation.aux
 INPUT 0ACover\4recommendation.aux
+INPUT .\LetterOfApproval\letter.aux
+INPUT LetterOfApproval\letter.aux
+INPUT LetterOfApproval\letter.aux
 INPUT .\0ACover\5departmentAcceptance.aux
 INPUT 0ACover\5departmentAcceptance.aux
 INPUT 0ACover\5departmentAcceptance.aux
