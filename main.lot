@@ -3,10 +3,12 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4.1}{\ignorespaces Express Endpoint Testing: Capsules GET Methods\relax }}{25}{table.caption.22}%
-\contentsline {table}{\numberline {4.2}{\ignorespaces Express Endpoint Testing: Capsules GET Methods\relax }}{25}{table.caption.23}%
-\contentsline {table}{\numberline {4.3}{\ignorespaces Express Endpoint Testing: User Methods\relax }}{25}{table.caption.24}%
-\contentsline {table}{\numberline {4.4}{\ignorespaces System/Application Testing: Capsules GET Methods\relax }}{26}{table.caption.25}%
-\contentsline {table}{\numberline {4.5}{\ignorespaces System/Application Testing: Login\relax }}{26}{table.caption.26}%
-\contentsline {table}{\numberline {4.6}{\ignorespaces System/Application Testing: User Methods\relax }}{26}{table.caption.27}%
+\addvspace {10\p@ }
+\contentsline {table}{\numberline {5.1}{\ignorespaces Express Endpoint Testing: Capsules GET Methods\relax }}{33}{table.caption.28}%
+\contentsline {table}{\numberline {5.2}{\ignorespaces Express Endpoint Testing: Capsules GET Methods\relax }}{33}{table.caption.29}%
+\contentsline {table}{\numberline {5.3}{\ignorespaces Express Endpoint Testing: User Methods\relax }}{33}{table.caption.30}%
+\contentsline {table}{\numberline {5.4}{\ignorespaces System/Application Testing: General Functionalities\relax }}{34}{table.caption.31}%
+\contentsline {table}{\numberline {5.5}{\ignorespaces System/Application Testing: Authentication\relax }}{35}{table.caption.32}%
+\contentsline {table}{\numberline {5.6}{\ignorespaces System/Application Testing: Admin Functionalities\relax }}{35}{table.caption.33}%
+\contentsline {table}{\numberline {5.7}{\ignorespaces System/Application Testing: User Functionalities\relax }}{35}{table.caption.34}%
 \addvspace {10\p@ }

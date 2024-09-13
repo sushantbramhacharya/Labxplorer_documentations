@@ -34,6 +34,12 @@ Unity’s real-time rendering capabilities, coupled with its powerful physics en
 \subsection{Implementation Details of Modules}
 This subsection outlines the implementation specifics for each module, detailing the core functionalities and algorithms utilized. It covers the programming languages, frameworks, and tools used in development, along with the interaction and communication between modules. Key design patterns, data management strategies, and error-handling mechanisms are discussed to ensure optimal performance. Additionally, security measures and optimizations applied during implementation are highlighted.
 \newline
+\textbf{Frontend API Integration Module}
+\begin{figure}[H]
+    \centering
+     \includegraphics[height = 5cm]{Diagrams/API.png}
+     \caption{API Integration Module}
+ \end{figure}
 \textbf{User Registration Module}
 \begin{figure}[H]
     \centering
@@ -80,7 +86,7 @@ Theses API unit testing are performed using Postman. API unit testing using Post
             \hline
             1 & Login user/admin endpoint & \texttt{/api/user/login\newline body: Username and Password} & Creates JWT token and sets an HTTP Only Cookie to the client side \\
             \hline
-            2 & api/user/register & \texttt{/api/capsule/category?category\newline=physics} & Returns JSON response with Array of Objects with id \\
+            2 & Register api/user/register & \texttt{api/user/register\newline body: Username,Password and Password} & Returns JSON response with Array of Objects with id \\
             \hline
            
         \end{tabular}%
@@ -104,47 +110,84 @@ Theses API unit testing are performed using Postman. API unit testing using Post
 \subsection{Test Cases for System Testing}
 The objective of System Testing is to conduct a comprehensive evaluation of the entire PERN application, encompassing both frontend and backend components. This testing phase aims to validate the correct and cohesive functioning of all integrated parts of the system.
 \begin{table}[H]
-    \caption{System/Application Testing: Capsules GET Methods}
+    \caption{System/Application Testing: General Functionalities}
     \label{tab:express_endpoint_testing}
     \resizebox{\textwidth}{!}{%
-        \begin{tabular}{|p{0.5in}|p{2.5in}|p{2in}|p{2.5in}|}
+        \begin{tabular}{|p{0.25in}|p{2in}|p{2.5in}|p{2.5in}|}
             \hline
             \textbf{Test No.} & \textbf{Test Case} & \textbf{Input} & \textbf{ Output} \\
             \hline
-            1 & Acessing Specific Capsules By Id & \texttt{/capsule/8\newline} & Shows whole capsule its images, pdf and all its meta information with quiz \\
+            1 & Acessing Specific Capsules & \texttt{/capsule/8\newline} & Shows whole capsule its images, pdf and all its meta information with quiz \\
             \hline
-            2 & Acessing Capsules Menu By Category & \texttt{/capsules/physics} & Shows cards, thumbnail, title, description and buttons about related category capsules  \\
+            2 & Capusles By Category & \texttt{/capsules/physics} & Shows cards, thumbnail, title, description and buttons about related category capsules  \\
             \hline
-            3 & Getting All Capsules & \texttt{/learning-area} & Shows Learning Capsules with categories of each capsules \\
+            3 & Acessing Learning Areas & \texttt{/learning-area} & Shows Learning Capsules with categories of each capsules \\
+            \hline
+            4 & Acessing Quiz & \texttt{/learning-area} & Shows Learning Capsules with categories of each capsules \\
+            \hline
+            5 & Submitting Quiz & \texttt{/learning-area} & Shows Learning Capsules with categories of each capsules \\
+            \hline
+            6 & Accessing Simulations & \texttt{/learning-area} & Shows Learning Capsules with categories of each capsules \\
+            \hline
+            7 & Accessing PDF & \texttt{/learning-area} & Shows Learning Capsules with categories of each capsules \\
+            \hline
+            9 & Accessing Images of Capsule & \texttt{/learning-area} & Shows Learning Capsules with categories of each capsules \\
+            \hline
+            9 & Searching capsules and Simulations& \texttt{/learning-area} & Shows Learning Capsules with categories of each capsules \\
             \hline
         \end{tabular}%
     }
 \end{table}
 \begin{table}[H]
-    \caption{System/Application Testing: Login}
+    \caption{System/Application Testing: Authentication}
     \label{tab:express_endpoint_testing}
     \resizebox{\textwidth}{!}{%
-        \begin{tabular}{|p{0.5in}|p{2.5in}|p{3in}|p{1.5in}|}
+        \begin{tabular}{|p{0.25in}|p{1in}|p{3.5in}|p{2.5in}|}
             \hline
             \textbf{Test No.} & \textbf{Test Case} & \textbf{Input} & \textbf{ Output} \\
             \hline
-            1 & Login User & \texttt{/login\newline Input: Username 'test' and Password 'test'} & Creates JWT token and sets an HTTP Only Cookie to the client side and redirects user into profile page\\
+            1 & Login User & \texttt{/login\newline Input: Username 'test' and Password 'test'} & Logs in the User and shows profile\\
             \hline
-            1 & Login Admin & \texttt{/login\newline Input: Username 'Admin' and Password 'admin'} & Creates JWT token and sets an HTTP Only Cookie to the client side and redirects user into profile page also shows Admin Button for Admin Panel\\
+            2 & Login Admin & \texttt{/login\newline Input: Username 'Admin' and Password 'admin'} & Logs in Admin and shows profile\\
             \hline
+            3 & Register User & \texttt{/login\newline Input: Username 'Admin' and Password 'admin'} & Logs in Admin and shows profile\\\hline
            
         \end{tabular}%
     }
 \end{table}
 \begin{table}[H]
-    \caption{System/Application Testing: User Methods}
+    \caption{System/Application Testing: Admin Functionalities}
     \label{tab:express_endpoint_testing}
     \resizebox{\textwidth}{!}{%
-        \begin{tabular}{|p{0.5in}|p{2.5in}|p{3in}|p{1.5in}|}
+        \begin{tabular}{|p{0.25in}|p{1in}|p{3.5in}|p{2.5in}|}
             \hline
             \textbf{Test No.} & \textbf{Test Case} & \textbf{Input} & \textbf{ Output} \\
             \hline
-            1 & Admin add capsule & \texttt{/admin/add} & Shows Form to add capsules and adds capsules when submitted  \\
+            1 & Add capsule & \texttt{/admin/add} & Shows Form to add capsules and adds capsules when submitted  \\
+            \hline
+            2 & Edit capsule & \texttt{/admin/add} & Shows Form to add capsules and adds capsules when submitted  \\
+            \hline
+            3 & Delete capsule & \texttt{/admin/add} & Shows Form to add capsules and adds capsules when submitted  \\
+            \hline
+            4 & Edit Quiz & \texttt{/admin/add} & Shows Form to add capsules and adds capsules when submitted  \\
+            \hline
+            
+        \end{tabular}%
+    }
+\end{table}
+\begin{table}[H]
+    \caption{System/Application Testing: User Functionalities}
+    \label{tab:express_endpoint_testing}
+    \resizebox{\textwidth}{!}{%
+    \begin{tabular}{|p{0.25in}|p{1in}|p{3.5in}|p{2.5in}|}
+            \hline
+            \textbf{Test No.} & \textbf{Test Case} & \textbf{Input} & \textbf{ Output} \\
+            \hline
+            1 & Favouriting Capsule & \texttt{/admin/add} & Shows Form to add capsules and adds capsules when submitted  \\
+            \hline
+            2 & Commenting & \texttt{/admin/add} & Shows Form to add capsules and adds capsules when submitted  \\
+            \hline
+            3 & User Profile & \texttt{/admin/add} & Shows Form to add capsules and adds capsules when submitted  \\
             \hline
             
         \end{tabular}%

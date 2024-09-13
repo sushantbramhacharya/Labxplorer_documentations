@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.4)  13 SEP 2024 14:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.4)  13 SEP 2024 22:47
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1394,6 +1394,9 @@ LaTeX Warning: Label `tab:express_endpoint_testing' multiply defined.
 
 LaTeX Warning: Label `tab:express_endpoint_testing' multiply defined.
 
+
+LaTeX Warning: Label `tab:express_endpoint_testing' multiply defined.
+
 ) (5ConclusionFuture/conclusion.aux))
 \openout1 = `main.aux'.
 
@@ -1509,7 +1512,7 @@ Package hyperref Info: Link coloring ON on input line 174.
 \openout2 = `0ACover/0cover.aux'.
 
  (0ACover/0cover.tex
-<img/Graphics/lec.jpg, id=198, 1083.04625pt x 693.59125pt>
+<img/Graphics/lec.jpg, id=222, 1083.04625pt x 693.59125pt>
 File: img/Graphics/lec.jpg Graphic file (type jpg)
 <use img/Graphics/lec.jpg>
 Package pdftex.def Info: img/Graphics/lec.jpg  used on input line 5.
@@ -1696,18 +1699,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--16
 \tf@toc=\write5
 \openout5 = `main.toc'.
 
- [10] (main.lof)
+ [10] (main.lof [11
+
+
+])
 \tf@lof=\write6
 \openout6 = `main.lof'.
 
- [11
-
-
-] (main.lot)
+ [12] (main.lot)
 \tf@lot=\write7
 \openout7 = `main.lot'.
 
- [12
+ [13
 
 
 ]
@@ -1718,7 +1721,7 @@ Overfull \hbox (126.94109pt too wide) in paragraph at lines 8--35
 [][] 
  []
 
-) [13
+) [14
 
 
 
@@ -1755,325 +1758,491 @@ Chapter 3.
 
 
 
-] [8] [9] [10] [11]
-<Diagrams/DFD.drawio.png, id=432, 666.3294pt x 423.5022pt>
-File: Diagrams/DFD.drawio.png Graphic file (type png)
-<use Diagrams/DFD.drawio.png>
-Package pdftex.def Info: Diagrams/DFD.drawio.png  used on input line 46.
-(pdftex.def)             Requested size: 537.20236pt x 341.43306pt.
- [12 <./Diagrams/DFD.drawio.png>]
+] [8]
+<Diagrams/use_case.png, id=475, 570.933pt x 463.9734pt>
+File: Diagrams/use_case.png Graphic file (type png)
+<use Diagrams/use_case.png>
+Package pdftex.def Info: Diagrams/use_case.png  used on input line 30.
+(pdftex.def)             Requested size: 420.14035pt x 341.43306pt.
+ [9 <./Diagrams/use_case.png>] [10] [11] [12]
+<Diagrams/ProcessModelling.png, id=496, 680.0607pt x 828.9369pt>
+File: Diagrams/ProcessModelling.png Graphic file (type png)
+<use Diagrams/ProcessModelling.png>
+Package pdftex.def Info: Diagrams/ProcessModelling.png  used on input line 59.
+(pdftex.def)             Requested size: 420.19089pt x 512.1496pt.
+ [13 <./Diagrams/ProcessModelling.png>]
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `cmtt' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [13]
-<Diagrams/er.drawio.png, id=445, 998.7714pt x 449.5194pt>
+ [14]
+<Diagrams/er.drawio.png, id=507, 998.7714pt x 449.5194pt>
 File: Diagrams/er.drawio.png Graphic file (type png)
 <use Diagrams/er.drawio.png>
-Package pdftex.def Info: Diagrams/er.drawio.png  used on input line 119.
+Package pdftex.def Info: Diagrams/er.drawio.png  used on input line 132.
 (pdftex.def)             Requested size: 663.80888pt x 298.75394pt.
- [14] [15 <./Diagrams/er.drawio.png>]
-<Diagrams/Main_Block.png, id=455, 377.2494pt x 708.9687pt>
+ [15] [16 <./Diagrams/er.drawio.png>]
+<Diagrams/Main_Block.png, id=517, 377.2494pt x 708.9687pt>
 File: Diagrams/Main_Block.png Graphic file (type png)
 <use Diagrams/Main_Block.png>
-Package pdftex.def Info: Diagrams/Main_Block.png  used on input line 128.
+Package pdftex.def Info: Diagrams/Main_Block.png  used on input line 141.
 (pdftex.def)             Requested size: 242.24467pt x 455.24408pt.
- [16 <./Diagrams/Main_Block.png>]
-<Diagrams/Schema Design.png, id=461, 1240.635pt x 1357.07pt>
+ [17 <./Diagrams/Main_Block.png>]
+<Diagrams/Schema Design.png, id=524, 1240.635pt x 1357.07pt>
 File: Diagrams/Schema Design.png Graphic file (type png)
 <use Diagrams/Schema Design.png>
-Package pdftex.def Info: Diagrams/Schema Design.png  used on input line 137.
+Package pdftex.def Info: Diagrams/Schema Design.png  used on input line 150.
 (pdftex.def)             Requested size: 442.17958pt x 483.69684pt.
 
-Overfull \hbox (7.27919pt too wide) in paragraph at lines 137--138
+Overfull \hbox (7.27919pt too wide) in paragraph at lines 150--151
  [][] 
  []
 
-[17 <./Diagrams/Schema Design.png (PNG copy)>]
-<Diagrams/interface/home ui.png, id=466, 1398.72563pt x 692.5875pt>
+[18 <./Diagrams/Schema Design.png (PNG copy)>] [19]
+<Diagrams/interface/home ui.png, id=533, 1398.72563pt x 692.5875pt>
 File: Diagrams/interface/home ui.png Graphic file (type png)
 <use Diagrams/interface/home ui.png>
-Package pdftex.def Info: Diagrams/interface/home ui.png  used on input line 146.
+Package pdftex.def Info: Diagrams/interface/home ui.png  used on input line 188.
 (pdftex.def)             Requested size: 426.79134pt x 211.3287pt.
-<Diagrams/interface/capsule category ui.png, id=467, 1152.10425pt x 332.442pt>
+<Diagrams/interface/capsule category ui.png, id=534, 1152.10425pt x 332.442pt>
 File: Diagrams/interface/capsule category ui.png Graphic file (type png)
 <use Diagrams/interface/capsule category ui.png>
-Package pdftex.def Info: Diagrams/interface/capsule category ui.png  used on input line 151.
+Package pdftex.def Info: Diagrams/interface/capsule category ui.png  used on input line 193.
 (pdftex.def)             Requested size: 426.79134pt x 123.14871pt.
-<Diagrams/interface/Capsules.png, id=468, 1146.08176pt x 452.892pt>
+<Diagrams/interface/Capsules.png, id=535, 1146.08176pt x 452.892pt>
 File: Diagrams/interface/Capsules.png Graphic file (type png)
 <use Diagrams/interface/Capsules.png>
-Package pdftex.def Info: Diagrams/interface/Capsules.png  used on input line 156.
+Package pdftex.def Info: Diagrams/interface/Capsules.png  used on input line 198.
 (pdftex.def)             Requested size: 426.79134pt x 168.65237pt.
- [18 <./Diagrams/interface/home ui.png> <./Diagrams/interface/capsule category ui.png> <./Diagrams/interface/Capsules.png>]
-<Diagrams/DFD Process Modeling.png, id=477, 352.6776pt x 434.3427pt>
+<Diagrams/interface/cap.png, id=536, 1148.49075pt x 546.24075pt>
+File: Diagrams/interface/cap.png Graphic file (type png)
+<use Diagrams/interface/cap.png>
+Package pdftex.def Info: Diagrams/interface/cap.png  used on input line 203.
+(pdftex.def)             Requested size: 426.79134pt x 202.98941pt.
+ [20 <./Diagrams/interface/home ui.png> <./Diagrams/interface/capsule category ui.png>]
+<Diagrams/interface/admin.png, id=543, 1144.275pt x 549.252pt>
+File: Diagrams/interface/admin.png Graphic file (type png)
+<use Diagrams/interface/admin.png>
+Package pdftex.def Info: Diagrams/interface/admin.png  used on input line 208.
+(pdftex.def)             Requested size: 426.79134pt x 204.86272pt.
+<Diagrams/interface/admin_dash.png, id=544, 1139.457pt x 549.252pt>
+File: Diagrams/interface/admin_dash.png Graphic file (type png)
+<use Diagrams/interface/admin_dash.png>
+Package pdftex.def Info: Diagrams/interface/admin_dash.png  used on input line 213.
+(pdftex.def)             Requested size: 426.79134pt x 205.72594pt.
+<Diagrams/interface/edit.png, id=545, 1150.89975pt x 511.9125pt>
+File: Diagrams/interface/edit.png Graphic file (type png)
+<use Diagrams/interface/edit.png>
+Package pdftex.def Info: Diagrams/interface/edit.png  used on input line 218.
+(pdftex.def)             Requested size: 426.79134pt x 189.83427pt.
+ [21 <./Diagrams/interface/Capsules.png> <./Diagrams/interface/cap.png> <./Diagrams/interface/admin.png>] [22 <./Diagrams/interface/admin_dash.png> <./Diagrams/interface/edit.png>]
+<Diagrams/DFD Process Modeling.png, id=559, 352.6776pt x 434.3427pt>
 File: Diagrams/DFD Process Modeling.png Graphic file (type png)
 <use Diagrams/DFD Process Modeling.png>
-Package pdftex.def Info: Diagrams/DFD Process Modeling.png  used on input line 164.
-(pdftex.def)             Requested size: 323.461pt x 398.33858pt.
-) [19 <./Diagrams/DFD Process Modeling.png>]
+Package pdftex.def Info: Diagrams/DFD Process Modeling.png  used on input line 226.
+(pdftex.def)             Requested size: 346.5688pt x 426.79134pt.
+ [23 <./Diagrams/DFD Process Modeling.png>]
+Chapter 4.
+
+Overfull \hbox (1.12804pt too wide) in paragraph at lines 235--236
+[]\OT1/ptm/b/n/12 (-20) Initialization: \OT1/ptm/m/n/12 (-20) Ini-tial-izes \OT1/cmtt/m/n/12 selectedElement \OT1/ptm/m/n/12 (-20) with the first el-e-ment from the \OT1/cmtt/m/n/12 elements
+ []
+
+[24
+
+] [25] [26]) [27]
 \openout2 = `4ImplementationAndTesting/ImplementationAndTesting.aux'.
 
  (4ImplementationAndTesting/ImplementationAndTesting.tex
-Chapter 4.
-[20
+Chapter 5.
+[28
 
 
 
 
-] [21]
-<Diagrams/register_module.png, id=491, 419.8887pt x 210.3057pt>
+] [29]
+<Diagrams/API.png, id=597, 470.4777pt x 167.6664pt>
+File: Diagrams/API.png Graphic file (type png)
+<use Diagrams/API.png>
+Package pdftex.def Info: Diagrams/API.png  used on input line 40.
+(pdftex.def)             Requested size: 399.21875pt x 142.26378pt.
+ [30]
+<Diagrams/register_module.png, id=602, 419.8887pt x 210.3057pt>
 File: Diagrams/register_module.png Graphic file (type png)
 <use Diagrams/register_module.png>
-Package pdftex.def Info: Diagrams/register_module.png  used on input line 40.
+Package pdftex.def Info: Diagrams/register_module.png  used on input line 46.
 (pdftex.def)             Requested size: 397.66827pt x 199.16928pt.
- [22]
-<Diagrams/auth module.png, id=496, 365.6862pt x 275.3487pt>
+<Diagrams/auth module.png, id=603, 365.6862pt x 275.3487pt>
 File: Diagrams/auth module.png Graphic file (type png)
 <use Diagrams/auth module.png>
-Package pdftex.def Info: Diagrams/auth module.png  used on input line 48.
+Package pdftex.def Info: Diagrams/auth module.png  used on input line 54.
 (pdftex.def)             Requested size: 377.87741pt x 284.52756pt.
- [23 <./Diagrams/register_module.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+ [31 <./Diagrams/API.png> <./Diagrams/register_module.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
 []|\OT1/ptm/b/n/12 (+20) Test
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
 []|\OT1/ptm/m/n/12 (+20) Returns JSON re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
 []|\OT1/ptm/m/n/12 (+20) Returns JSON re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 71--71
+Underfull \hbox (badness 10000) in paragraph at lines 77--77
 []|\OT1/ptm/m/n/12 (+20) Returns JSON re-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 []|\OT1/ptm/b/n/12 (+20) Test
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 87--87
+Underfull \hbox (badness 2073) in paragraph at lines 93--93
 \OT1/ptm/m/n/12 (+20) sets an HTTP Only
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 87--87
+Underfull \hbox (badness 1199) in paragraph at lines 93--93
 \OT1/ptm/m/n/12 (+20) Cookie to the client
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 87--87
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
+\OT1/cmtt/m/n/12 body: Username,Password and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--93
 []|\OT1/ptm/m/n/12 (+20) Returns JSON re-
  []
 
-[24 <./Diagrams/auth module.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+[32 <./Diagrams/auth module.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 []|\OT1/ptm/b/n/12 (+20) Test
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 101--101
+Underfull \hbox (badness 10000) in paragraph at lines 107--107
 \OT1/cmtt/m/n/12 body:capsule informations and
  []
 
 
-Underfull \hbox (badness 1325) in paragraph at lines 101--101
+Underfull \hbox (badness 1325) in paragraph at lines 107--107
 []|\OT1/ptm/m/n/12 (+20) Sucessfully adds im-
  []
 
-[25]
-Underfull \hbox (badness 10000) in paragraph at lines 121--121
-[]|\OT1/ptm/b/n/12 (+20) Test
+[33]
+Overfull \hbox (2.38435pt too wide) in paragraph at lines 139--139
+[]|\OT1/ptm/b/n/12 (-20) Test
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
-[]|\OT1/ptm/b/n/12 (+20) Test
+Overfull \hbox (2.38435pt too wide) in paragraph at lines 156--156
+[]|\OT1/ptm/b/n/12 (-20) Test
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
-\OT1/cmtt/m/n/12 Input: Username 'test' and
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+\OT1/cmtt/m/n/12 Input: Username 'test' and Password
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 137--137
-\OT1/ptm/m/n/12 (+20) sets an HTTP Only
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+\OT1/cmtt/m/n/12 Input: Username 'Admin' and Password
  []
 
 
-Underfull \hbox (badness 1199) in paragraph at lines 137--137
-\OT1/ptm/m/n/12 (+20) Cookie to the client
+Underfull \hbox (badness 10000) in paragraph at lines 156--156
+\OT1/cmtt/m/n/12 Input: Username 'Admin' and Password
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--137
-\OT1/cmtt/m/n/12 Input: Username 'Admin' and
+Overfull \hbox (2.38435pt too wide) in paragraph at lines 176--176
+[]|\OT1/ptm/b/n/12 (-20) Test
+ []
+
+[34]
+Overfull \hbox (2.38435pt too wide) in paragraph at lines 194--194
+[]|\OT1/ptm/b/n/12 (-20) Test
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 137--137
-\OT1/ptm/m/n/12 (+20) sets an HTTP Only
+Underfull \hbox (badness 10000) in paragraph at lines 194--194
+[]|\OT1/ptm/m/n/12 (+20) Favouriting
  []
 
-
-Underfull \hbox (badness 1199) in paragraph at lines 137--137
-\OT1/ptm/m/n/12 (+20) Cookie to the client
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-[]|\OT1/ptm/b/n/12 (+20) Test
- []
-
-
-Underfull \hbox (badness 1565) in paragraph at lines 151--151
-[]|\OT1/ptm/m/n/12 (+20) Shows Form to add
- []
-
-) [26]
+) [35]
 \openout2 = `5ConclusionFuture/conclusion.aux'.
 
  (5ConclusionFuture/conclusion.tex
-Chapter 5.
-[27
+Chapter 6.
+[36
 
 
 
 
 ]
-<Diagrams/output/home.png, id=520, 1139.457pt x 545.6385pt>
+<Diagrams/output/home.png, id=632, 1139.457pt x 545.6385pt>
 File: Diagrams/output/home.png Graphic file (type png)
 <use Diagrams/output/home.png>
 Package pdftex.def Info: Diagrams/output/home.png  used on input line 21.
-(pdftex.def)             Requested size: 284.52756pt x 136.24277pt.
-<Diagrams/output/about.png, id=521, 1125.003pt x 561.89925pt>
+(pdftex.def)             Requested size: 455.24408pt x 217.99342pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 21--22
+ [][] 
+ []
+
+<Diagrams/output/about.png, id=633, 1927.2pt x 1274.7625pt>
 File: Diagrams/output/about.png Graphic file (type png)
 <use Diagrams/output/about.png>
 Package pdftex.def Info: Diagrams/output/about.png  used on input line 27.
-(pdftex.def)             Requested size: 284.52756pt x 142.1035pt.
-<Diagrams/output/learningareas.png, id=522, 1111.15125pt x 560.0925pt>
+(pdftex.def)             Requested size: 455.24408pt x 301.12534pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 27--28
+ [][] 
+ []
+
+[37 <./Diagrams/output/home.png>]
+<Diagrams/output/learningareas.png, id=639, 1927.2pt x 1314.9125pt>
 File: Diagrams/output/learningareas.png Graphic file (type png)
 <use Diagrams/output/learningareas.png>
 Package pdftex.def Info: Diagrams/output/learningareas.png  used on input line 33.
-(pdftex.def)             Requested size: 284.52756pt x 143.41566pt.
-<Diagrams/output/simulations.png, id=523, 1129.821pt x 551.661pt>
+(pdftex.def)             Requested size: 455.24408pt x 310.60959pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 33--34
+ [][] 
+ []
+
+<Diagrams/output/simulations.png, id=640, 1150.89975pt x 554.07pt>
 File: Diagrams/output/simulations.png Graphic file (type png)
 <use Diagrams/output/simulations.png>
 Package pdftex.def Info: Diagrams/output/simulations.png  used on input line 40.
-(pdftex.def)             Requested size: 284.52756pt x 138.92502pt.
- [28 <./Diagrams/output/home.png> <./Diagrams/output/about.png> <./Diagrams/output/learningareas.png>]
-<Diagrams/output/capsules.png, id=531, 1153.911pt x 517.935pt>
+(pdftex.def)             Requested size: 455.24408pt x 219.16383pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 40--41
+ [][] 
+ []
+
+[38 <./Diagrams/output/about.png> <./Diagrams/output/learningareas.png>]
+<Diagrams/output/capsules.png, id=647, 1153.911pt x 517.935pt>
 File: Diagrams/output/capsules.png Graphic file (type png)
 <use Diagrams/output/capsules.png>
 Package pdftex.def Info: Diagrams/output/capsules.png  used on input line 46.
-(pdftex.def)             Requested size: 284.52756pt x 127.70523pt.
-<Diagrams/output/capsule.png, id=532, 1131.0255pt x 537.207pt>
-File: Diagrams/output/capsule.png Graphic file (type png)
-<use Diagrams/output/capsule.png>
-Package pdftex.def Info: Diagrams/output/capsule.png  used on input line 52.
-(pdftex.def)             Requested size: 284.52756pt x 135.14572pt.
-<Diagrams/output/quiz.png, id=533, 1135.24126pt x 432.4155pt>
+(pdftex.def)             Requested size: 455.24408pt x 204.33313pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 46--47
+ [][] 
+ []
+
+<Diagrams/output/quiz.png, id=648, 1135.24126pt x 432.4155pt>
 File: Diagrams/output/quiz.png Graphic file (type png)
 <use Diagrams/output/quiz.png>
-Package pdftex.def Info: Diagrams/output/quiz.png  used on input line 58.
-(pdftex.def)             Requested size: 284.52756pt x 108.37413pt.
-<Diagrams/output/login.png, id=534, 858.20625pt x 464.937pt>
+Package pdftex.def Info: Diagrams/output/quiz.png  used on input line 52.
+(pdftex.def)             Requested size: 455.24408pt x 173.40521pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 52--53
+ [][] 
+ []
+
+[39 <./Diagrams/output/simulations.png> <./Diagrams/output/capsules.png>]
+<Diagrams/output/login.png, id=655, 1927.2pt x 921.4425pt>
 File: Diagrams/output/login.png Graphic file (type png)
 <use Diagrams/output/login.png>
-Package pdftex.def Info: Diagrams/output/login.png  used on input line 64.
-(pdftex.def)             Requested size: 284.52756pt x 154.14621pt.
- [29 <./Diagrams/output/simulations.png> <./Diagrams/output/capsules.png> <./Diagrams/output/capsule.png> <./Diagrams/output/quiz.png>]
-<Diagrams/output//register.png, id=543, 695.59875pt x 453.49425pt>
+Package pdftex.def Info: Diagrams/output/login.png  used on input line 58.
+(pdftex.def)             Requested size: 455.24408pt x 217.66382pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 58--59
+ [][] 
+ []
+
+<Diagrams/output//register.png, id=656, 1927.2pt x 921.4425pt>
 File: Diagrams/output//register.png Graphic file (type png)
 <use Diagrams/output//register.png>
-Package pdftex.def Info: Diagrams/output//register.png  used on input line 70.
-(pdftex.def)             Requested size: 284.52756pt x 185.4979pt.
-<Diagrams/output/admin.png, id=544, 1121.99174pt x 560.0925pt>
+Package pdftex.def Info: Diagrams/output//register.png  used on input line 64.
+(pdftex.def)             Requested size: 455.24408pt x 217.66382pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 64--65
+ [][] 
+ []
+
+[40 <./Diagrams/output/quiz.png> <./Diagrams/output/login.png>]
+<Diagrams/output/admin.png, id=663, 1927.2pt x 1542.76375pt>
 File: Diagrams/output/admin.png Graphic file (type png)
 <use Diagrams/output/admin.png>
-Package pdftex.def Info: Diagrams/output/admin.png  used on input line 76.
-(pdftex.def)             Requested size: 284.52756pt x 142.03116pt.
-<Diagrams/output/addsimulations.png, id=545, 702.2235pt x 482.40225pt>
+Package pdftex.def Info: Diagrams/output/admin.png  used on input line 70.
+(pdftex.def)             Requested size: 455.24408pt x 364.43279pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 70--71
+ [][] 
+ []
+
+<Diagrams/output/addsimulations.png, id=664, 702.2235pt x 482.40225pt>
 File: Diagrams/output/addsimulations.png Graphic file (type png)
 <use Diagrams/output/addsimulations.png>
-Package pdftex.def Info: Diagrams/output/addsimulations.png  used on input line 82.
-(pdftex.def)             Requested size: 284.52756pt x 195.46016pt.
- [30 <./Diagrams/output/login.png> <./Diagrams/output//register.png> <./Diagrams/output/admin.png>]
-<Diagrams/output/gravity.png, id=554, 1078.0275pt x 442.65375pt>
+Package pdftex.def Info: Diagrams/output/addsimulations.png  used on input line 76.
+(pdftex.def)             Requested size: 455.24408pt x 312.73332pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 76--77
+ [][] 
+ []
+
+[41 <./Diagrams/output//register.png> <./Diagrams/output/admin.png>]
+<Diagrams/output/gravity.png, id=672, 1078.0275pt x 442.65375pt>
 File: Diagrams/output/gravity.png Graphic file (type png)
 <use Diagrams/output/gravity.png>
-Package pdftex.def Info: Diagrams/output/gravity.png  used on input line 88.
-(pdftex.def)             Requested size: 284.52756pt x 116.82986pt.
-<Diagrams/output/ohms.png, id=555, 1094.28825pt x 460.72125pt>
+Package pdftex.def Info: Diagrams/output/gravity.png  used on input line 82.
+(pdftex.def)             Requested size: 455.24408pt x 186.9332pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 82--83
+ [][] 
+ []
+
+<Diagrams/output/ohms.png, id=673, 1094.28825pt x 460.72125pt>
 File: Diagrams/output/ohms.png Graphic file (type png)
 <use Diagrams/output/ohms.png>
-Package pdftex.def Info: Diagrams/output/ohms.png  used on input line 94.
-(pdftex.def)             Requested size: 284.52756pt x 119.79172pt.
-<Diagrams/output/atom.png, id=556, 1090.0725pt x 513.117pt>
+Package pdftex.def Info: Diagrams/output/ohms.png  used on input line 88.
+(pdftex.def)             Requested size: 455.24408pt x 191.66676pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 88--89
+ [][] 
+ []
+
+[42 <./Diagrams/output/addsimulations.png> <./Diagrams/output/gravity.png>]
+<Diagrams/output/atom.png, id=680, 1090.0725pt x 513.117pt>
 File: Diagrams/output/atom.png Graphic file (type png)
 <use Diagrams/output/atom.png>
-Package pdftex.def Info: Diagrams/output/atom.png  used on input line 100.
-(pdftex.def)             Requested size: 284.52756pt x 133.93185pt.
- [31 <./Diagrams/output/addsimulations.png> <./Diagrams/output/gravity.png> <./Diagrams/output/ohms.png>]
-<Diagrams/output/js.png, id=564, 1072.005pt x 507.69675pt>
+Package pdftex.def Info: Diagrams/output/atom.png  used on input line 94.
+(pdftex.def)             Requested size: 455.24408pt x 214.28627pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 94--95
+ [][] 
+ []
+
+<Diagrams/output/js.png, id=681, 1072.005pt x 507.69675pt>
 File: Diagrams/output/js.png Graphic file (type png)
 <use Diagrams/output/js.png>
-Package pdftex.def Info: Diagrams/output/js.png  used on input line 106.
-(pdftex.def)             Requested size: 284.52756pt x 134.74815pt.
-<Diagrams/output/solar.png, id=565, 1073.2095pt x 513.117pt>
+Package pdftex.def Info: Diagrams/output/js.png  used on input line 100.
+(pdftex.def)             Requested size: 455.24408pt x 215.6017pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 100--101
+ [][] 
+ []
+
+<Diagrams/output/profile.png, id=682, 1927.2pt x 1031.855pt>
+File: Diagrams/output/profile.png Graphic file (type png)
+<use Diagrams/output/profile.png>
+Package pdftex.def Info: Diagrams/output/profile.png  used on input line 105.
+(pdftex.def)             Requested size: 455.24408pt x 243.74554pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 105--106
+ [][] 
+ []
+
+[43 <./Diagrams/output/ohms.png> <./Diagrams/output/atom.png>]
+<Diagrams/output/solar.png, id=689, 1073.2095pt x 513.117pt>
 File: Diagrams/output/solar.png Graphic file (type png)
 <use Diagrams/output/solar.png>
-Package pdftex.def Info: Diagrams/output/solar.png  used on input line 112.
-(pdftex.def)             Requested size: 284.52756pt x 136.038pt.
-<Diagrams/output/addcapsule.png, id=566, 1118.37825pt x 567.92175pt>
+Package pdftex.def Info: Diagrams/output/solar.png  used on input line 110.
+(pdftex.def)             Requested size: 455.24408pt x 217.66078pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 110--111
+ [][] 
+ []
+
+<Diagrams/output/edit_quiz.png, id=690, 1927.2pt x 2216.28pt>
+File: Diagrams/output/edit_quiz.png Graphic file (type png)
+<use Diagrams/output/edit_quiz.png>
+Package pdftex.def Info: Diagrams/output/edit_quiz.png  used on input line 115.
+(pdftex.def)             Requested size: 455.24408pt x 523.5313pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 115--116
+ [][] 
+ []
+
+[44 <./Diagrams/output/js.png> <./Diagrams/output/profile.png>]
+<Diagrams/output/search_results.png, id=697, 1927.2pt x 1194.4625pt>
+File: Diagrams/output/search_results.png Graphic file (type png)
+<use Diagrams/output/search_results.png>
+Package pdftex.def Info: Diagrams/output/search_results.png  used on input line 120.
+(pdftex.def)             Requested size: 455.24408pt x 282.1568pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 120--121
+ [][] 
+ []
+
+[45 <./Diagrams/output/solar.png>]
+<Diagrams/output/edit_capsule.png, id=703, 1927.2pt x 2520.41624pt>
+File: Diagrams/output/edit_capsule.png Graphic file (type png)
+<use Diagrams/output/edit_capsule.png>
+Package pdftex.def Info: Diagrams/output/edit_capsule.png  used on input line 125.
+(pdftex.def)             Requested size: 455.24408pt x 595.37459pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 125--126
+ [][] 
+ []
+
+[46 <./Diagrams/output/edit_quiz.png>]
+<Diagrams/output/addcapsule.png, id=709, 1927.2pt x 2993.1825pt>
 File: Diagrams/output/addcapsule.png Graphic file (type png)
 <use Diagrams/output/addcapsule.png>
-Package pdftex.def Info: Diagrams/output/addcapsule.png  used on input line 118.
-(pdftex.def)             Requested size: 284.52756pt x 144.4845pt.
- [32 <./Diagrams/output/atom.png> <./Diagrams/output/js.png> <./Diagrams/output/solar.png>]) [33 <./Diagrams/output/addcapsule.png>] (Appendix/appendix1.tex
-<Diagrams/Gantt_Chart.png, id=579, 770.88pt x 578.16pt>
+Package pdftex.def Info: Diagrams/output/addcapsule.png  used on input line 130.
+(pdftex.def)             Requested size: 426.79134pt x 662.84106pt.
+ [47 <./Diagrams/output/search_results.png>]
+<Diagrams/output/after_addition.png, id=716, 1927.2pt x 2883.77374pt>
+File: Diagrams/output/after_addition.png Graphic file (type png)
+<use Diagrams/output/after_addition.png>
+Package pdftex.def Info: Diagrams/output/after_addition.png  used on input line 135.
+(pdftex.def)             Requested size: 455.24408pt x 681.20715pt.
+
+Overfull \hbox (20.34369pt too wide) in paragraph at lines 135--136
+ [][] 
+ []
+
+[48 <./Diagrams/output/edit_capsule.png>] [49 <./Diagrams/output/addcapsule.png>]
+Overfull \vbox (5.20027pt too high) has occurred while \output is active []
+
+ [50 <./Diagrams/output/after_addition.png>]) [51] (Appendix/appendix1.tex
+<Diagrams/Gantt_Chart.png, id=736, 770.88pt x 578.16pt>
 File: Diagrams/Gantt_Chart.png Graphic file (type png)
 <use Diagrams/Gantt_Chart.png>
 Package pdftex.def Info: Diagrams/Gantt_Chart.png  used on input line 5.
 (pdftex.def)             Requested size: 401.50146pt x 301.1213pt.
-<Diagrams/supervisor.jpg, id=580, 1037.8775pt x 1607.00375pt>
+<Diagrams/supervisor.jpg, id=737, 1037.8775pt x 1607.00375pt>
 File: Diagrams/supervisor.jpg Graphic file (type jpg)
 <use Diagrams/supervisor.jpg>
 Package pdftex.def Info: Diagrams/supervisor.jpg  used on input line 11.
 (pdftex.def)             Requested size: 401.50146pt x 621.67766pt.
-) (Appendix/appendix2.tex [34
+) (Appendix/appendix2.tex [52
 
 
 
- <./Diagrams/Gantt_Chart.png>]) [35 <./Diagrams/supervisor.jpg>] (main.bbl) [36
+ <./Diagrams/Gantt_Chart.png>]) [53 <./Diagrams/supervisor.jpg>] (main.bbl) [54
 
 ] (main.aux (0ACover/0cover.aux) (0ACover/1title.aux) (0ACover/3declaration.aux) (0ACover/4recommendation.aux) (LetterOfApproval/letter.aux) (0ACover/5departmentAcceptance.aux) (0ACover/6acknowledgement.aux) (0HAbstract/abstract.aux) (0IAbbreviations/abbreviations.aux) (1Introduction/introduction.aux) (2Literaturereview/literaturereview.aux) (3Methodology/methodology.aux) (4ImplementationAndTesting/ImplementationAndTesting.aux) (5ConclusionFuture/conclusion.aux))
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 0AC8FF2B0029378367A177406306C955;7131.
+(rerunfilecheck)             Checksum: 53555F76E89A2329CF3CBDFB8707908D;8177.
  ) 
 Here is how much of TeX's memory you used:
- 34875 strings out of 476411
- 691364 string characters out of 5788663
- 1865845 words of memory out of 5000000
- 54101 multiletter control sequences out of 15000+600000
- 540104 words of font info for 211 fonts, out of 8000000 for 9000
+ 35051 strings out of 476411
+ 694845 string characters out of 5788663
+ 1869845 words of memory out of 5000000
+ 54179 multiletter control sequences out of 15000+600000
+ 546542 words of font info for 247 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,12n,117p,1324b,697s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/Senbuu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Senbuu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Senbuu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Senbuu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (49 pages, 4430364 bytes).
+ 108i,12n,117p,1324b,695s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/Senbuu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Senbuu/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Senbuu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/Senbuu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/Senbuu/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on main.pdf (68 pages, 6793826 bytes).
 PDF statistics:
- 648 PDF objects out of 1000 (max. 8388607)
- 142 named destinations out of 1000 (max. 500000)
- 41507 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 818 PDF objects out of 1000 (max. 8388607)
+ 183 named destinations out of 1000 (max. 500000)
+ 41605 words of extra memory for PDF output out of 42996 (max. 10000000)
 
