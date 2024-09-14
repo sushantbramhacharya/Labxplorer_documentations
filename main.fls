@@ -851,6 +851,13 @@ INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\tex\latex\psnfss\ts1ptm.fd
 INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
 INPUT C:\Users\Senbuu\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
+INPUT .\Diagrams\organization.png
+INPUT .\Diagrams\organization.png
+INPUT Diagrams\organization.png
+INPUT .\Diagrams\organization.png
+INPUT .\Diagrams\organization.png
+INPUT .\Diagrams\organization.png
+INPUT .\Diagrams\organization.png
 INPUT .\2Literaturereview\literaturereview.tex
 INPUT .\2Literaturereview\literaturereview.tex
 OUTPUT 2Literaturereview\literaturereview.aux

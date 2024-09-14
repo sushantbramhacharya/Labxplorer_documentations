@@ -1,54 +1,55 @@
 \noaddvspace 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Report Organisation\relax }}{3}{figure.caption.11}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Use Case Diagram\relax }}{10}{figure.caption.11}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Process Model: Logical DFD\relax }}{14}{figure.caption.12}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces ER Diagram of System Data\relax }}{16}{figure.caption.13}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Three Tier Architecture of System\relax }}{17}{figure.caption.14}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Schema Design\relax }}{18}{figure.caption.15}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Home Screen UI Design\relax }}{20}{figure.caption.16}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Capsule Category UI Design\relax }}{20}{figure.caption.17}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Capsules Menu Design\relax }}{21}{figure.caption.18}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Capsules Menu Design\relax }}{21}{figure.caption.19}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Capsules Menu Design\relax }}{21}{figure.caption.20}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces Capsules Menu Design\relax }}{22}{figure.caption.21}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Capsules Menu Design\relax }}{22}{figure.caption.22}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Physical Data Flow Diagram\relax }}{23}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Use Case Diagram\relax }}{10}{figure.caption.12}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Process Model: Logical DFD\relax }}{14}{figure.caption.13}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces ER Diagram of System Data\relax }}{16}{figure.caption.14}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Three Tier Architecture of System\relax }}{17}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Schema Design\relax }}{18}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Home Screen UI Design\relax }}{20}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Capsule Category UI Design\relax }}{20}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Capsules Menu Design\relax }}{21}{figure.caption.19}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Capsule Screen Design\relax }}{21}{figure.caption.20}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Profile Design\relax }}{21}{figure.caption.21}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Admin Dashboard Design\relax }}{22}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Capsule Edit/Add Design\relax }}{22}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Physical Data Flow Diagram\relax }}{23}{figure.caption.24}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces API Integration Module\relax }}{32}{figure.caption.24}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Registration Module\relax }}{33}{figure.caption.25}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Authentication Module\relax }}{33}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces API Integration Module\relax }}{32}{figure.caption.25}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Registration Module\relax }}{33}{figure.caption.26}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Authentication Module\relax }}{33}{figure.caption.27}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Home Screen\relax }}{39}{figure.caption.34}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Login\relax }}{39}{figure.caption.35}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Register\relax }}{40}{figure.caption.36}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces About Page\relax }}{40}{figure.caption.37}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Learning Areas\relax }}{41}{figure.caption.38}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Simulations\relax }}{41}{figure.caption.39}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Capsules\relax }}{42}{figure.caption.40}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Quizzes\relax }}{42}{figure.caption.41}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Admin Panel\relax }}{43}{figure.caption.42}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Add Simulations\relax }}{44}{figure.caption.43}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Profile\relax }}{44}{figure.caption.44}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces CRUD Quizzes\relax }}{45}{figure.caption.45}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Search Results\relax }}{46}{figure.caption.46}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Search Results\relax }}{46}{figure.caption.47}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Edit Capsule\relax }}{47}{figure.caption.48}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Add Capsule\relax }}{48}{figure.caption.49}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces After Addition of Capsule\relax }}{49}{figure.caption.50}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Gravity Simulator\relax }}{50}{figure.caption.51}%
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Ohm's Law Simulator\relax }}{50}{figure.caption.52}%
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Atom Simulator\relax }}{51}{figure.caption.53}%
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Solar System Simulator\relax }}{51}{figure.caption.54}%
-\contentsline {figure}{\numberline {5.22}{\ignorespaces JavaScript Editor\relax }}{52}{figure.caption.55}%
-\contentsline {figure}{\numberline {A.23}{\ignorespaces Gantt Chart of Schedule\relax }}{53}{figure.caption.57}%
-\contentsline {figure}{\numberline {A.24}{\ignorespaces Table of User\relax }}{56}{figure.caption.58}%
-\contentsline {figure}{\numberline {A.25}{\ignorespaces Table of Capsule\relax }}{56}{figure.caption.59}%
-\contentsline {figure}{\numberline {A.26}{\ignorespaces Table of Capsule Simulations\relax }}{56}{figure.caption.60}%
-\contentsline {figure}{\numberline {A.27}{\ignorespaces Table of Comments\relax }}{56}{figure.caption.61}%
-\contentsline {figure}{\numberline {A.28}{\ignorespaces Table of Favourites\relax }}{57}{figure.caption.62}%
-\contentsline {figure}{\numberline {A.29}{\ignorespaces Table of Quiz Options\relax }}{57}{figure.caption.63}%
-\contentsline {figure}{\numberline {A.30}{\ignorespaces Table of Quizes\relax }}{57}{figure.caption.64}%
-\contentsline {figure}{\numberline {A.31}{\ignorespaces Table of Simulations\relax }}{57}{figure.caption.65}%
-\contentsline {figure}{\numberline {A.32}{\ignorespaces Supervisor Consultation Form\relax }}{58}{figure.caption.66}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Home Screen\relax }}{39}{figure.caption.35}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Login\relax }}{39}{figure.caption.36}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Register\relax }}{40}{figure.caption.37}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces About Page\relax }}{40}{figure.caption.38}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Learning Areas\relax }}{41}{figure.caption.39}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Simulations\relax }}{41}{figure.caption.40}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Capsules\relax }}{42}{figure.caption.41}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Quizzes\relax }}{42}{figure.caption.42}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Admin Panel\relax }}{43}{figure.caption.43}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Add Simulations\relax }}{44}{figure.caption.44}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Profile\relax }}{44}{figure.caption.45}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces CRUD Quizzes\relax }}{45}{figure.caption.46}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Search Results\relax }}{46}{figure.caption.47}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Search Results\relax }}{46}{figure.caption.48}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Edit Capsule\relax }}{47}{figure.caption.49}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Add Capsule\relax }}{48}{figure.caption.50}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces After Addition of Capsule\relax }}{49}{figure.caption.51}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Gravity Simulator\relax }}{50}{figure.caption.52}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Ohm's Law Simulator\relax }}{50}{figure.caption.53}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Atom Simulator\relax }}{51}{figure.caption.54}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Solar System Simulator\relax }}{51}{figure.caption.55}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces JavaScript Editor\relax }}{52}{figure.caption.56}%
+\contentsline {figure}{\numberline {A.23}{\ignorespaces Gantt Chart of Schedule\relax }}{53}{figure.caption.58}%
+\contentsline {figure}{\numberline {A.24}{\ignorespaces Table of User\relax }}{56}{figure.caption.59}%
+\contentsline {figure}{\numberline {A.25}{\ignorespaces Table of Capsule\relax }}{56}{figure.caption.60}%
+\contentsline {figure}{\numberline {A.26}{\ignorespaces Table of Capsule Simulations\relax }}{56}{figure.caption.61}%
+\contentsline {figure}{\numberline {A.27}{\ignorespaces Table of Comments\relax }}{56}{figure.caption.62}%
+\contentsline {figure}{\numberline {A.28}{\ignorespaces Table of Favourites\relax }}{57}{figure.caption.63}%
+\contentsline {figure}{\numberline {A.29}{\ignorespaces Table of Quiz Options\relax }}{57}{figure.caption.64}%
+\contentsline {figure}{\numberline {A.30}{\ignorespaces Table of Quizes\relax }}{57}{figure.caption.65}%
+\contentsline {figure}{\numberline {A.31}{\ignorespaces Table of Simulations\relax }}{57}{figure.caption.66}%
+\contentsline {figure}{\numberline {A.32}{\ignorespaces Supervisor Consultation Form\relax }}{58}{figure.caption.67}%
