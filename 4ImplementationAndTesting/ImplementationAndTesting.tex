@@ -29,21 +29,26 @@ Postman is a widely-used collaboration platform for API development, enabling de
 \section*{Unity 3D}
 Unity 3D is a leading game development platform renowned for its ability to create both 2D and 3D interactive experiences across a wide range of platforms, including consoles, mobile devices, and VR/AR environments. Developed by Unity Technologies, the engine offers a comprehensive suite of tools that cater to every aspect of game development, from design and prototyping to final deployment.
 Unity’s real-time rendering capabilities, coupled with its powerful physics engine, allow developers to create highly immersive and visually stunning games. The engine's support for WebGL enables developers to deploy their games directly to the web, providing browser-based experiences without the need for plugins. WebGL in Unity leverages the engine's advanced rendering capabilities, allowing developers to create complex 3D environments that run smoothly in any modern browser. This makes Unity a versatile tool not only for traditional game development but also for creating interactive web applications.
-
-
+\section*{Draw.io}
+Draw.io (now known as diagrams.net) is a powerful, web-based diagramming tool designed to simplify the creation of various types of visual diagrams, including flowcharts, organizational charts, network diagrams, and more. Developed to be user-friendly and accessible, Draw.io provides a comprehensive suite of features that facilitate diagram creation and collaboration. The tool offers a wide range of pre-built templates, shapes, and connectors, allowing users to quickly construct detailed diagrams tailored to their specific needs. With its intuitive drag-and-drop interface, users can easily customize and arrange elements to convey complex information clearly and effectively. Draw.io also integrates seamlessly with cloud storage services like Google Drive and Dropbox, enabling real-time collaboration and ensuring that diagrams are easily accessible from anywhere. Its flexibility and ease of use make it an invaluable resource for professionals and teams seeking to visualize data, plan projects, or streamline workflows.
+\section*{Figma}
+Figma is a leading web-based design tool renowned for its collaborative capabilities and versatility in creating user interfaces, prototypes, and vector graphics. Developed by Figma, Inc., the platform provides a robust set of design features that support both individual and team-based projects. With real-time collaboration, multiple users can simultaneously work on the same design, offering a seamless experience for brainstorming, feedback, and iterative design processes. Figma’s vector graphics editor allows for precise design work, while its prototyping tools enable users to create interactive and dynamic prototypes that simulate the user experience. The platform supports extensive plugin integrations, enhancing functionality and streamlining workflows. Its cloud-based nature ensures that designs are always up-to-date and accessible from any device, making Figma an essential tool for modern design teams seeking efficient and collaborative design solutions.
 \subsection{Implementation Details of Modules}
 This subsection outlines the implementation specifics for each module, detailing the core functionalities and algorithms utilized. It covers the programming languages, frameworks, and tools used in development, along with the interaction and communication between modules. Key design patterns, data management strategies, and error-handling mechanisms are discussed to ensure optimal performance. Additionally, security measures and optimizations applied during implementation are highlighted.
 \newline
-\textbf{Frontend API Integration Module}
+\textbf{Frontend API Integration Module}\newline
+This diagram depicts the architecture of a web application where a React frontend communicates with an Express server through RTK Query and Axios. The process starts with the React frontend triggering either queries or mutations, which are handled by the Redux Toolkit (RTK) API slices. These slices manage API interactions, including the request and response lifecycle. Axios is used to send HTTP requests from the frontend to the Express server. The server processes incoming requests, performs necessary operations (such as database interactions), and sends responses back to Axios. Axios then passes the response data to RTK slices, which manage state updates. This architecture ensures smooth, organized data flow between the client and server, making it easier to handle API calls, manage state, and ensure a responsive user experience.
 \begin{figure}[H]
     \centering
      \includegraphics[height = 5cm]{Diagrams/API.png}
      \caption{API Integration Module}
  \end{figure}
 \textbf{User Registration Module}
+
+This diagram outlines a registration or authentication process involving several components. The user interacts with a React frontend to register or request access. A Token Generator backend service creates an authentication token, which is sent to the user via email using Node Mailer (implemented with Node.js and Nodemailer). The user submits the token back to the system, and the Token Verification service checks its validity. The Postgres database stores user information and tokens, ensuring that the submitted token matches the one in the database for verification. This flow connects the frontend, backend, email system, and database for user authentication.
 \begin{figure}[H]
     \centering
-     \includegraphics[height = 7cm]{Diagrams/register_module.png}
+     \includegraphics[height = 5cm]{Diagrams/register_module.png}
      \caption{Registration Module}
  \end{figure}
 \textbf{Authentication Module}
@@ -51,7 +56,7 @@ This subsection outlines the implementation specifics for each module, detailing
 The Authentication Module utilizes JSON Web Tokens (JWT) for secure user authentication. JWTs are compact, URL-safe tokens that encode user information, including a signature to verify the token's integrity. After a successful login, a JWT is generated and stored in an HTTP-only cookie, preventing unauthorized access via client-side scripts. The module also includes bcrypt hashing for securely storing user credentials and authentication middleware that checks the validity of the JWT on each request, ensuring only authenticated users can access protected resources.
 \begin{figure}[H]
    \centering
-    \includegraphics[height = 10cm]{Diagrams/auth module.png}
+    \includegraphics[height = 8cm]{Diagrams/auth module.png}
     \caption{Authentication Module}
 \end{figure}
 % \subsection{Algorithm Details}
@@ -106,7 +111,6 @@ Theses API unit testing are performed using Postman. API unit testing using Post
         \end{tabular}%
     }
 \end{table}
-\newpage
 \subsection{Test Cases for System Testing}
 The objective of System Testing is to conduct a comprehensive evaluation of the entire PERN application, encompassing both frontend and backend components. This testing phase aims to validate the correct and cohesive functioning of all integrated parts of the system.
 \begin{table}[H]
@@ -117,23 +121,23 @@ The objective of System Testing is to conduct a comprehensive evaluation of the 
             \hline
             \textbf{Test No.} & \textbf{Test Case} & \textbf{Input} & \textbf{ Output} \\
             \hline
-            1 & Acessing Specific Capsules & \texttt{/capsule/8\newline} & Shows whole capsule its images, pdf and all its meta information with quiz \\
+            1 & Acessing Specific Capsules & \texttt{/capsule/8\newline} & Shows whole capsule its images, pdf and all its meta information with quiz. \\
             \hline
-            2 & Capusles By Category & \texttt{/capsules/physics} & Shows cards, thumbnail, title, description and buttons about related category capsules  \\
+            2 & Capusles By Category & \texttt{/capsules/physics} & Shows cards, thumbnail, title, description and buttons about related category capsules. \\
             \hline
-            3 & Acessing Learning Areas & \texttt{/learning-area} & Shows Learning Capsules with categories of each capsules \\
+            3 & Acessing Learning Areas & \texttt{/learning-area} & Shows Learning Capsules with categories of each capsules. \\
             \hline
-            4 & Acessing Quiz & \texttt{/learning-area} & Shows Learning Capsules with categories of each capsules \\
+            4 & Acessing Quiz & \texttt{/quiz/8} & Shows Quiz of Specific Capsule. \\
             \hline
-            5 & Submitting Quiz & \texttt{/learning-area} & Shows Learning Capsules with categories of each capsules \\
+            5 & Submitting Quiz & Selecting quiz and submitting & Shows How many quiz was right. \\
             \hline
-            6 & Accessing Simulations & \texttt{/learning-area} & Shows Learning Capsules with categories of each capsules \\
+            6 & Accessing Ohms Law Simulator & \texttt{/sims/ohmslaw} & Shows Ohms law simulator with V,I and R inputs and phaser output. \\
             \hline
-            7 & Accessing PDF & \texttt{/learning-area} & Shows Learning Capsules with categories of each capsules \\
+            7 & Accessing PDF & In capsule screen click on Open PDF & Shows PDF document of specific capsule. \\
             \hline
-            9 & Accessing Images of Capsule & \texttt{/learning-area} & Shows Learning Capsules with categories of each capsules \\
+            8 & Accessing Images of Capsule & Clicking Images & Shows Images Realated to capsule.\\
             \hline
-            9 & Searching capsules and Simulations& \texttt{/learning-area} & Shows Learning Capsules with categories of each capsules \\
+            9 & Searching capsules and Simulations& \texttt{/search/Gravity} & Searches and shows capsules and simulation related to capsules. \\
             \hline
         \end{tabular}%
     }
@@ -150,7 +154,8 @@ The objective of System Testing is to conduct a comprehensive evaluation of the 
             \hline
             2 & Login Admin & \texttt{/login\newline Input: Username 'Admin' and Password 'admin'} & Logs in Admin and shows profile\\
             \hline
-            3 & Register User & \texttt{/login\newline Input: Username 'Admin' and Password 'admin'} & Logs in Admin and shows profile\\\hline
+            3 & Login User with incorrect credentials & \texttt{/login\newline Input: Username 'test' and Password 'test1234'} & Alerts with wrong password\\\hline
+            4 & Register User & \texttt{/login\newline Input: Username 'Admin' and Password 'admin'} & Logs in Admin and shows profile\\\hline
            
         \end{tabular}%
     }
@@ -165,11 +170,11 @@ The objective of System Testing is to conduct a comprehensive evaluation of the 
             \hline
             1 & Add capsule & \texttt{/admin/add} & Shows Form to add capsules and adds capsules when submitted  \\
             \hline
-            2 & Edit capsule & \texttt{/admin/add} & Shows Form to add capsules and adds capsules when submitted  \\
+            2 & Edit capsule & \texttt{/admin/edit-capsules/6} & Shows Form to edit capsules and adds capsules when submitted  \\
             \hline
-            3 & Delete capsule & \texttt{/admin/add} & Shows Form to add capsules and adds capsules when submitted  \\
+            3 & Delete capsule & Delete Capsule & Shows Form to add capsules and adds capsules when submitted  \\
             \hline
-            4 & Edit Quiz & \texttt{/admin/add} & Shows Form to add capsules and adds capsules when submitted  \\
+            4 & Edit Quiz & \texttt{/admin/quiz-mgmnt/6} & Shows Form to add quiz,remove quiz and options  \\
             \hline
             
         \end{tabular}%
@@ -179,15 +184,15 @@ The objective of System Testing is to conduct a comprehensive evaluation of the 
     \caption{System/Application Testing: User Functionalities}
     \label{tab:express_endpoint_testing}
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|p{0.25in}|p{1in}|p{3.5in}|p{2.5in}|}
+    \begin{tabular}{|p{0.25in}|p{1.5in}|p{3in}|p{2.5in}|}
             \hline
             \textbf{Test No.} & \textbf{Test Case} & \textbf{Input} & \textbf{ Output} \\
             \hline
-            1 & Favouriting Capsule & \texttt{/admin/add} & Shows Form to add capsules and adds capsules when submitted  \\
+            1 & Favourite Function & Clicking Add to Favourites button & Adds to favourite and shows in profile  \\
             \hline
-            2 & Commenting & \texttt{/admin/add} & Shows Form to add capsules and adds capsules when submitted  \\
+            2 & Commenting & Commenting on Capsules with \"Good Capsule\" & Adds Comment and shows good capsule in both capsule and author profile  \\
             \hline
-            3 & User Profile & \texttt{/admin/add} & Shows Form to add capsules and adds capsules when submitted  \\
+            3 & User Profile & \texttt{/profile} & Shows Profile having Favourite Capsule and Comments done by User \\
             \hline
             
         \end{tabular}%

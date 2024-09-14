@@ -6,12 +6,12 @@ Requirement analysis is a critical phase in the software development lifecycle t
 \subsubsection{Functional Requirements}The functional requirements of LabXplorerX are mentioned below:
 \begin{itemize}
     \item \textbf{User Profiles:}  
-    LabXplorerX allows children and teachers to create personalized profiles for managing their activity within the platform. Users can log in with unique credentials and update their profiles with avatars and educational interests. The profile section displays only the user's own comments and interactions within the platform, along with a list of their favorited capsules. This streamlined approach helps users easily track their contributions and revisit their most valued content.
+    LabXplorerX allows children and teachers to create personalized profiles for managing their activity within the platform. Users can log in with unique credentials. The profile section displays only the user's own comments and interactions within the platform, along with a list of their favorited capsules. This streamlined approach helps users easily track their contributions and revisit their most valued content.
 
     \item \textbf{Interactive Virtual Simulations:} LabXplorerX offers a range of interactive virtual simulations, including Basic Electronics, Basic Chemistry, Basic Astronomy, and an Online Coding Environment. These simulations provide immersive experiences where users can engage in hands-on activities, such as manipulating virtual equipment and conducting experiments. By integrating interactive animations and real-world scenarios, LabXplorerX facilitates experiential learning, allowing users to explore scientific principles and phenomena in a dynamic digital environment.
 
     \item \textbf{Capsule Tools:}  
-    In LabXplorerX, only administrators have the ability to create educational capsules, quizzes, and simulation links. They can design capsules with interactive quizzes, organize educational content, and provide structured learning paths for students. However, the creation and development of new simulations are restricted to developers, ensuring that complex interactive simulations are handled by technical experts while allowing administrators to manage and assign tasks within the platform.
+    In LabXplorerX, only administrators have the ability to create educational capsules, quizzes, and simulation links. They can design capsules with interactive quizzes, organize educational content. However, the creation and development of new simulations are restricted to developers, ensuring that complex interactive simulations are handled by technical experts while allowing administrators to manage and assign tasks within the platform.
     
 
     \item \textbf{Comments and Favourites for Learning Capsules:}  
@@ -53,7 +53,7 @@ Combining Express.js with React and PostgreSQL offers a robust and scalable solu
 Structured system modeling is a methodical approach used to design complex systems by decomposing them into manageable components and utilizing formal diagrams and tools. This approach aids in clearly defining system requirements, workflows, and interactions. By breaking down a system into its constituent parts, structured system modeling facilitates a thorough understanding of its structure and behavior. The use of formal diagrams and tools ensures that all aspects of the system are documented and analyzed systematically, which enhances clarity, communication, and accuracy throughout the design process. This methodical approach supports the creation of well-organized and efficient systems, improving overall design quality and project outcomes.
 \newpage
 \subsection{Process Modeling}
-Processing Modeling visually represent the flow of data within a system, showing how inputs are processed into outputs. They help in understanding the system's functionality and data movement, aiding in the design and analysis of processes.
+Processing Modeling visually represent the flow of processes within a system, showing how inputs are processed into outputs. They help in understanding the system's functionality and data movement, aiding in the design and analysis of processes.
 \begin{figure}[H]
     \centering
         \includegraphics[height = 18cm]{Diagrams/ProcessModelling.png}
@@ -63,72 +63,13 @@ Processing Modeling visually represent the flow of data within a system, showing
 \newpage
 \subsection{Data Modelling(ER-Diagram)}
 The Entity-Relationship (ER) Diagram is primarily used to design a database schema. The ER diagram provided below facilitates the creation of a database in SQL by clearly illustrating the entities, their attributes, and the relationships between them. This visual representation helps in structuring the database effectively, ensuring that all necessary data elements and their interconnections are accounted for.
-\section*{Entities and Attributes}
-\begin{itemize}
-    \item \textbf{Users}
-    \begin{itemize}
-        \item \texttt{id}: Unique identifier for the user.
-        \item \texttt{username}: The name of the user.
-        \item \texttt{email}: Email of the user.
-        \item \texttt{password}: Password for user authentication.
-        \item \texttt{email\_verification\_token}: Token to verify the email.
-        \item \texttt{email\_verified}: Status indicating whether the user's email is verified.
-    \end{itemize}
-    
-    \item \textbf{Capsules}
-    \begin{itemize}
-        \item \texttt{id}: Unique identifier for the capsule.
-        \item \texttt{title}: Title of the capsule.
-        \item \texttt{description}: Description of the capsule.
-        \item \texttt{thumbnail}: Image representing the capsule.
-        \item \texttt{images}: Additional images related to the capsule.
-        \item \texttt{pdf}: PDF documents associated with the capsule.
-        \item \texttt{category}: The category to which the capsule belongs.
-        \item \texttt{author\_id}: Reference to the user who created the capsule.
-    \end{itemize}
-    
-    \item \textbf{Simulations}
-    \begin{itemize}
-        \item \texttt{id}: Unique identifier for the simulation.
-        \item \texttt{title}: Title of the simulation.
-        \item \texttt{description}: Description of the simulation.
-        \item \texttt{link}: URL or reference to the simulation.
-        \item \texttt{category}: The category of the simulation.
-    \end{itemize}
-    
-    \item \textbf{Comments}
-    \begin{itemize}
-        \item \texttt{comment\_id}: Unique identifier for the comment.
-        \item \texttt{comment\_text}: The text of the comment.
-        \item \texttt{user\_id}: Reference to the user who made the comment.
-        \item \texttt{capsule\_id}: Reference to the capsule that was commented on.
-    \end{itemize}
-    
-    \item \textbf{Quiz}
-    \begin{itemize}
-        \item \texttt{quiz\_id}: Unique identifier for the quiz.
-        \item \texttt{title}: Title of the quiz.
-        \item \texttt{category}: The category of the quiz.
-        \item \texttt{capsule\_id}: Reference to the capsule related to the quiz.
-    \end{itemize}
-    \item \textbf{Options}
-    \begin{itemize}
-        \item \texttt{option\_id}: Unique identifier for the option.
-        \item \texttt{option\_text}: Text of the quiz option.
-        \item \texttt{is\_correct}: Boolean indicating if the option is correct.
-        \item \texttt{quiz\_id}: Reference to the quiz.
-    \end{itemize}
-    
-    \item \textbf{Favorites}
-    \begin{itemize}
-        \item \texttt{user\_id}: Reference to the user.
-        \item \texttt{capsule\_id}: Reference to the capsule marked as a favorite.
-    \end{itemize}
-\end{itemize}
+The system is organized into several key entities, each with specific attributes. 
+\section*{Entities Description}
+The Users entity represents the individuals who interact with the system, including attributes such as id, username, email, password, email\_verification\_token, and email\_verified to manage user authentication and verification. The Capsules entity covers various educational content units, each with a unique id, and attributes like title, description, thumbnail, images, pdf, category, and author\_id to provide detailed information and multimedia resources. Simulations are described by the Simulations entity, which includes id, title, description, link, and category to organize and access interactive simulations. The Comments entity enables user feedback on capsules, featuring attributes such as comment\_id, comment\_text, user\_id, and capsule\_id to link comments to their respective users and content. Quizzes, associated with capsules, are managed by the Quizzes entity, which includes quiz\_id, title, category, and capsule\_id for assessment purposes. The Options entity represents the various answers available for quizzes, with attributes such as option\_id, option\_text, is\_correct, and quiz\_id to identify and validate correct responses. Lastly, the Favorites entity tracks user preferences for capsules through user\_id and capsule\_id, enabling users to mark and easily access their favorite content.
 \begin{figure}[H]
     \centering
     \rotatebox{90}{
-        \includegraphics[height=10.5cm]{Diagrams/er.drawio.png}
+        \includegraphics[height=10.8cm]{Diagrams/er.drawio.png}
     }
     \caption{ER Diagram of System Data}
 \end{figure}
@@ -141,7 +82,6 @@ The following diagram illustrates the architecture of our application. The appli
     \includegraphics[height=16cm]{Diagrams/Main_Block.png}
     \caption{Three Tier Architecture of System}
 \end{figure}
-
 \newpage
 \subsection{Database Schema Design}
 The schema design details the tables, their attributes, and the relationships between them, ensuring that data is stored efficiently and consistently. This design includes defining primary keys to uniquely identify records, foreign keys to establish relationships between tables, and constraints to maintain data integrity. The schema design provides a clear blueprint for creating and managing the database, supporting effective data organization and retrieval as per the application’s requirements.
@@ -227,9 +167,9 @@ This Physical Data Flow Diagram (DFD) outlines the architecture of a web applica
     \caption{Physical Data Flow Diagram}
 \end{figure}
 \newpage
-\chapter{ALGORITHMS}
+\section{Algorithms}
 
-\section{Algorithm of AtomSimulator}
+\subsection{Algorithm of AtomSimulator}
 Atom Sim is a virtual lab simulation tool designed to provide an interactive and educational experience in understanding atomic and molecular structures.
 \begin{itemize}
     \item \textbf{Initialization:} Initializes \texttt{selectedElement} with the first element from the \texttt{elements} array.
@@ -241,7 +181,7 @@ Atom Sim is a virtual lab simulation tool designed to provide an interactive and
 \end{itemize}
 
 
-\section{Algorithm of CodeEditor}
+\subsection{Algorithm of CodeEditor}
 The `CodeEditor` component allows users to write, run, and view JavaScript code in a simulated environment.
 \begin{itemize}
     \item \textbf{Initialization:} Sets initial states for `code` (user input) and `consoleOutput` (output from the iframe).
@@ -250,16 +190,18 @@ The `CodeEditor` component allows users to write, run, and view JavaScript code 
     \item \textbf{User Interaction:} Updates the `consoleOutput` based on the iframe’s console messages and renders the results.
     \item \textbf{Cleanup:} Removes the iframe from the DOM after execution to prevent resource leaks.
 \end{itemize}
-\section{Algorithm of OhmsLawSimulator}
+\subsection{Algorithm of OhmsLawSimulator}
 The `OhmsLawSimulator` component simulates Ohm's Law, allowing users to interactively adjust voltage and resistance to observe their effects.
 \begin{itemize}
     \item \textbf{Initialization:} Sets default values for voltage and resistance. Initializes Phaser game instance and scene references.
     \item \textbf{Game Setup:} Configures and starts a Phaser game with physics and rendering settings. Preloads assets and creates initial game elements like a static rectangle and a dynamic bulb.
-    \item \textbf{Simulation Update:} Continuously updates bulb brightness based on the calculated current (using Ohm's Law: \( I = \frac{V}{R} \)). Adjusts displayed values for voltage, resistance, and current.
+    \item \textbf{Simulation Update:} Continuously updates bulb brightness based on the calculated current \begin{equation}
+        I = \frac{V}{R}
+        \end{equation}. Adjusts displayed values for voltage, resistance, and current.
     \item \textbf{User Interaction:} Updates Phaser scene values directly when voltage or resistance inputs change, triggering a re-render of the simulation.
     \item \textbf{Cleanup:} Destroys the Phaser game instance when the component unmounts to free up resources.
 \end{itemize}
-\section{Algorithm of GravitySim}
+\subsection{Algorithm of GravitySim}
 The `GravitySim` component simulates gravity effects on a player sprite, providing interactive controls for adjusting gravity and managing the simulation.
 \begin{itemize}
     \item \textbf{Initialization:} Sets up a Phaser game instance with a gravity simulation environment. Initializes references for the game, player, text elements, and timer.
@@ -270,9 +212,9 @@ The `GravitySim` component simulates gravity effects on a player sprite, providi
 \end{itemize}
 \textbf{Key Formula:}\\
 The distance traveled by the player due to gravity can be approximated using the formula for free-fall motion:
-\[
-d = \frac{1}{2} g t^2
-\]
+\begin{equation}
+    d = \frac{1}{2} g t^2
+\end{equation}
 where:
 \begin{itemize}
     \item \(d\) is the distance traveled (in meters),
@@ -280,7 +222,7 @@ where:
     \item \(t\) is the time elapsed (in seconds).
 \end{itemize}
 In the simulation, this formula is used to calculate and display the distance the player has fallen based on the current gravity setting and elapsed time.
-\section{Algorithm for SolarSystemSimulator}
+\subsection{Algorithm for SolarSystemSimulator}
 
 \begin{enumerate}
     \item \textbf{Initialization:}
