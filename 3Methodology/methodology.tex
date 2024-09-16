@@ -52,14 +52,31 @@ Combining Express.js with React and PostgreSQL offers a robust and scalable solu
 \section{Structured System Modelling }
 Structured system modeling is a methodical approach used to design complex systems by decomposing them into manageable components and utilizing formal diagrams and tools. This approach aids in clearly defining system requirements, workflows, and interactions. By breaking down a system into its constituent parts, structured system modeling facilitates a thorough understanding of its structure and behavior. The use of formal diagrams and tools ensures that all aspects of the system are documented and analyzed systematically, which enhances clarity, communication, and accuracy throughout the design process. This methodical approach supports the creation of well-organized and efficient systems, improving overall design quality and project outcomes.
 \newpage
-\subsection{Process Modeling}
-Processing Modeling visually represent the flow of processes within a system, showing how inputs are processed into outputs. They help in understanding the system's functionality and data movement, aiding in the design and analysis of processes.
+\subsection{Process Modeling : DFD}
+Processing Modeling visually represent the flow of processes within a system, showing how data are flowed from external entites to processes. This mainly deals with what is the system rather than how. These can be done through Data Flow Diagrams. These DFD are not the technical side rather an Representation of what the system does.\\
+\textbf{Context Level DFD}\\
+This is also known as Level 0 DFD which shows overall flow of data into system as a whole.
 \begin{figure}[H]
     \centering
-        \includegraphics[height = 18cm]{Diagrams/ProcessModelling.png}
-    \caption{Process Model: Logical DFD}
+        \includegraphics[height = 4cm]{Diagrams/ProcessModelling.png}
+    \caption{Process Model: DFD (Context Level)}
+\end{figure}
+\vspace{-1em}
+\textbf{Level 1 DFD}\\
+This is also known as Level 1 DFD which shows flow of data into system and its Major Processes.Here it has diffrent Process like Simulation System,User Management etc with their respective numbers 1.0, 2.0 etc.
+\begin{figure}[H]
+    \centering
+        \includegraphics[width = 12.25cm]{Diagrams/Process 1.png}
+    \caption{Process Model: DFD (Level 1)}
 \end{figure}
 \newpage
+\textbf{Level 2 DFD}\\
+These are even more detailed structure of flow of data into processes. In Level 2, Here it has more detailed view of each Processes above. Like 1.1 View Simulation is further divided from above 1 Simulation System Process.
+\begin{figure}[H]
+    \centering
+        \includegraphics[width = 15cm]{Diagrams/Process3.png}
+    \caption{Process Model: DFD (Level 2)}
+\end{figure}
 \newpage
 \subsection{Data Modelling(ER-Diagram)}
 The Entity-Relationship (ER) Diagram is primarily used to design a database schema. The ER diagram provided below facilitates the creation of a database in SQL by clearly illustrating the entities, their attributes, and the relationships between them. This visual representation helps in structuring the database effectively, ensuring that all necessary data elements and their interconnections are accounted for.
@@ -91,173 +108,63 @@ The schema design details the tables, their attributes, and the relationships be
     \caption{Schema Design}
 \end{figure}
 \newpage
-
 \subsection{Interface Design}
-The interface design for this project focuses on creating a visually appealing, functional, and accessible user experience. The designs include layouts for the Home Screen, Menu, Capsule, Profile, and Admin Dashboard. Below is a detailed summary of the key design components:
+The interface design for this project focuses on creating a visually appealing, functional, and accessible user experience. The design includes layouts for essential screens such as the Home Screen, Menu, Capsule, Profile, and Admin Dashboard.
 
-\begin{itemize} 
-    \item \textbf{Main Theme Color : Slate} The primary color used across the interface is Slate, chosen for its calm and professional appearance. This provides a consistent visual identity throughout the application while ensuring readability and contrast with other UI elements. 
-    \item \textbf{Font : Poppins} The Poppins font is selected for its modern and clean look. It enhances the readability of text across all devices, providing a uniform typographic structure that complements the design's minimalistic approach.
-    \item \textbf{Button Colors:}  
-    Buttons are designed using a palette of Slate, Red, Green, and Blue. The different colors are used to signify various actions:  
-    \begin{itemize}
-        \item \textit{Slate:} Default or secondary actions
-        \item \textit{Red:} Alerts or destructive actions (e.g., delete)
-        \item \textit{Green:} Confirmation or positive actions (e.g., submit)
-        \item \textit{Blue:} Primary actions (e.g., next, save)
-    \end{itemize}
-    \item \textbf{Accessibility Design:} The interface follows accessibility best practices by incorporating clearly defined and large buttons. These are designed to be easily distinguishable for users with visual impairments or motor difficulties, promoting ease of use.
-     \item \textbf{Responsive Design:} While the UI components have been optimized for responsiveness across different devices, the simulations are not responsive. The focus is on ensuring that primary UI elements scale effectively for various screen sizes, maintaining usability and aesthetics.
-    \item \textbf{Button Design:} Buttons throughout the interface are designed to be large and easily clickable. Their size and prominence ensure effortless navigation, reducing the chance of misclicks, and enhancing the overall user experience for a broad range of users.
-    \item \textbf{Form Design:} The form design prioritizes clarity, validation, and accessibility. Below are the key design considerations:
-     \begin{itemize}
-        \item \textbf{Clear Labels and Placeholders:} 
-        All form fields are accompanied by clear labels and visible placeholders, ensuring that users can easily understand the required input.
-        
-        \item \textbf{Validation Feedback:} 
-        Real-time validation is implemented to give users immediate feedback. 
-        
-        \item \textbf{Keyboard Navigation:} 
-        The form is designed to support keyboard navigation, allowing users to efficiently move through fields using the tab key. This feature improves accessibility for users who rely on keyboards or other assistive devices to interact with the form.
-    \end{itemize}
-    
-\end{itemize}
-\textbf{UI Designs}
-\begin{figure}[H]
-   \centering
-    \includegraphics[width = 15cm]{Diagrams/interface/home ui.png}
-    \caption{Home Screen UI Design}
-\end{figure}
-\begin{figure}[H]
-    \centering
-     \includegraphics[width = 15cm]{Diagrams/interface/capsule category ui.png}
-     \caption{Capsule Category UI Design}
- \end{figure}
- \begin{figure}[H]
-    \centering
-     \includegraphics[width = 15cm]{Diagrams/interface/Capsules.png}
-     \caption{Capsules Menu Design}
- \end{figure}
- \begin{figure}[H]
-    \centering
-     \includegraphics[width = 15cm]{Diagrams/interface/cap.png}
-     \caption{Capsule Screen Design}
- \end{figure}
- \begin{figure}[H]
-    \centering
-     \includegraphics[width = 15cm]{Diagrams/interface/admin.png}
-     \caption{Profile Design}
- \end{figure}
- \begin{figure}[H]
-    \centering
-     \includegraphics[width = 15cm]{Diagrams/interface/admin_dash.png}
-     \caption{Admin Dashboard Design}
- \end{figure}
- \begin{figure}[H]
-    \centering
-     \includegraphics[width = 15cm]{Diagrams/interface/edit.png}
-     \caption{Capsule Edit/Add Design}
- \end{figure}
+The main theme color chosen for the interface is Slate, a calm and professional color that provides consistency and a cohesive visual identity throughout the application. This choice ensures excellent readability and contrast with other UI elements, contributing to a clean and organized appearance.
+
+For typography, the Poppins font is selected for its modern and clean look, which enhances readability across devices. Its uniform structure complements the minimalistic design, ensuring text remains legible and clear.
+
+Button colors play an essential role in guiding user actions. A palette of Slate, Red, Green, and Blue is employed to differentiate between various actions. Slate is used for default or secondary actions, Red signals alerts or destructive actions, Green is for confirmation or positive actions like submissions, and Blue highlights primary actions such as saving or progressing to the next step.
+
+Accessibility is a key consideration in the design. Buttons and interactive elements are designed to be large and clearly defined, making them easily distinguishable for users with visual impairments or motor difficulties. This promotes an inclusive experience, ensuring that all users can navigate and interact with the application comfortably.
+
+Although the simulations are not responsive, the primary UI components have been optimized to ensure that essential elements scale properly on various devices, including desktops, tablets, and mobile screens. This responsiveness guarantees that the design maintains both usability and visual appeal across different screen sizes.
+
+The design of buttons emphasizes usability, with large, easily clickable buttons that reduce the chance of misclicks and enhance overall user satisfaction. Their prominence ensures easy navigation, particularly on smaller devices or for users with accessibility needs.
+
+Form design within the interface prioritizes clarity, validation, and accessibility. Each form field is accompanied by clear labels and placeholders, allowing users to understand the required input with ease. Real-time validation is implemented to provide immediate feedback, which helps users correct errors as they input data. Additionally, the form supports keyboard navigation, allowing users to move through fields efficiently using the tab key, a feature that enhances the accessibility of the form for users who rely on assistive devices.
+
+
 \newpage
 \subsection{Physical DFD}
-This Physical Data Flow Diagram (DFD) outlines the architecture of a web application with a clear separation of frontend and backend components. On the backend, Express (Node.js) handles the server-side logic, with middleware for authentication and error handling, routes for user, admin, and capsules, asynchronous controllers for managing requests, and a PostgreSQL database for storing data. Static files, including Unity simulations, are served from the backend. The frontend is built with React.js, utilizing React Router for navigation and RTK slices and APIs for state management. Screens and UI components, along with Phaser simulations, allow users to interact with backend data and display both static and dynamic simulations. The central store handles state management locally across components.
+A Physical Data Flow Diagram (DFD) provides a detailed view of how data flows through a system, focusing on physical components and their interactions. It illustrates the actual hardware, software, and network elements involved in processing and storing data. Unlike logical DFDs, which emphasize the functions and data flows abstractly, physical DFDs depict the real-world infrastructure, including servers, databases, and user interfaces.\\
+Below is the Context Level DFD. 
 \begin{figure}[H]
     \centering
-    \includegraphics[height = 15cm]{Diagrams/DFD Process Modeling.png}
-    \caption{Physical Data Flow Diagram}
+    \includegraphics[height = 3cm]{Diagrams/physical0.png}
+    \caption{Physical DFD (Context Level)}
+\end{figure}
+Below is the Level 1 DFD. Which shows detailed implementation of above Context Level DFD.
+\begin{figure}[H]
+    \centering
+    \includegraphics[height = 11cm]{Diagrams/physical1.png}
+    \caption{Physical DFD (Level 1)}
+\end{figure}
+Below is the Level 2 DFD. Which shows us More Detailed implementation of Above processes and whats behind those processes. It shows how Frontend and Backend processes the data and data being flowed in the system.
+\begin{figure}[H]
+    \centering
+    \includegraphics[height = 15cm]{Diagrams/DFD Process Modeling (1).png}
+    \caption{Physical DFD (Level 2)}
 \end{figure}
 \newpage
 \section{Algorithms}
-
-\subsection{Algorithm of AtomSimulator}
-Atom Sim is a virtual lab simulation tool designed to provide an interactive and educational experience in understanding atomic and molecular structures.
-\begin{itemize}
-    \item \textbf{Initialization:} Initializes \texttt{selectedElement} with the first element from the \texttt{elements} array.
-    \item \textbf{Game Setup:} Configures and initializes a Phaser game instance with specified dimensions and physics.
-    \item \textbf{Atom Visualization:} Creates a nucleus and displays protons and neutrons; draws electron orbits and positions electrons in their respective orbits.
-    \item \textbf{Electron Movement:} Uses a timer event to update electron positions based on their orbits and the current time.
-    \item \textbf{User Interaction:} Updates \texttt{selectedElement} and re-renders the game scene when a new element is selected.
-    \item \textbf{Cleanup:} Destroys the Phaser game instance when the component unmounts to free up resources.
-\end{itemize}
-
-
-\subsection{Algorithm of CodeEditor}
-The `CodeEditor` component allows users to write, run, and view JavaScript code in a simulated environment.
-\begin{itemize}
-    \item \textbf{Initialization:} Sets initial states for `code` (user input) and `consoleOutput` (output from the iframe).
-    \item \textbf{Event Handling:} Listens for messages from the iframe to capture console output and errors.
-    \item \textbf{Code Execution:} Creates an iframe to run the user-provided code, capturing and redirecting console messages.
-    \item \textbf{User Interaction:} Updates the `consoleOutput` based on the iframe’s console messages and renders the results.
-    \item \textbf{Cleanup:} Removes the iframe from the DOM after execution to prevent resource leaks.
-\end{itemize}
-\subsection{Algorithm of OhmsLawSimulator}
-The `OhmsLawSimulator` component simulates Ohm's Law, allowing users to interactively adjust voltage and resistance to observe their effects.
-\begin{itemize}
-    \item \textbf{Initialization:} Sets default values for voltage and resistance. Initializes Phaser game instance and scene references.
-    \item \textbf{Game Setup:} Configures and starts a Phaser game with physics and rendering settings. Preloads assets and creates initial game elements like a static rectangle and a dynamic bulb.
-    \item \textbf{Simulation Update:} Continuously updates bulb brightness based on the calculated current \begin{equation}
-        I = \frac{V}{R}
-        \end{equation}. Adjusts displayed values for voltage, resistance, and current.
-    \item \textbf{User Interaction:} Updates Phaser scene values directly when voltage or resistance inputs change, triggering a re-render of the simulation.
-    \item \textbf{Cleanup:} Destroys the Phaser game instance when the component unmounts to free up resources.
-\end{itemize}
-\subsection{Algorithm of GravitySim}
-The `GravitySim` component simulates gravity effects on a player sprite, providing interactive controls for adjusting gravity and managing the simulation.
-\begin{itemize}
-    \item \textbf{Initialization:} Sets up a Phaser game instance with a gravity simulation environment. Initializes references for the game, player, text elements, and timer.
-    \item \textbf{Game Setup:} Loads assets, creates game elements (background, platforms, and player), and displays initial values for gravity, distance, and time. Pauses the simulation and player's movement initially.
-    \item \textbf{Simulation Update:} Continuously updates gravity text, distance traveled, and elapsed time. Adjusts text position relative to the player sprite and handles the timer based on simulation state (paused or running).
-    \item \textbf{User Interaction:} Provides buttons for increasing/decreasing gravity, resetting player position, pausing, and resuming the simulation. Updates the game state and UI accordingly.
-    \item \textbf{Cleanup:} Destroys the Phaser game instance when the component unmounts to release resources.
-\end{itemize}
-\textbf{Key Formula:}\\
-The distance traveled by the player due to gravity can be approximated using the formula for free-fall motion:
-\begin{equation}
-    d = \frac{1}{2} g t^2
-\end{equation}
-where:
-\begin{itemize}
-    \item \(d\) is the distance traveled (in meters),
-    \item \(g\) is the acceleration due to gravity (in meters per second squared),
-    \item \(t\) is the time elapsed (in seconds).
-\end{itemize}
-In the simulation, this formula is used to calculate and display the distance the player has fallen based on the current gravity setting and elapsed time.
-\subsection{Algorithm for SolarSystemSimulator}
-
+\subsection{Simple Random Sampling Algorithm}
+Simple Random Sampling algorithm is used in system to randomize quiz into the system. Through this algorithm we can select random set of quiz from large sample or set of data. Simple Random Sampling involves two main steps: shuffling the list and selecting the desired number of samples. Here are the details mentioned below:
+\\
+\textbf{Shuffling : Fisher-Yates shuffle}\\ To achieve randomness, the list is shuffled using an algorithm such as the Fisher-Yates shuffle. This algorithm has a time complexity of \( O(n) \), where \( n \) is the number of elements in the list. The Fisher-Yates shuffle works by iterating through the list once and swapping each element with another element chosen randomly from the remaining elements. This ensures each permutation of the list is equally likely.\\
+ \textbf{Selection} \\After shuffling, the first \( k \) elements are selected where \( k \) is the number of desired samples. This step involves accessing \( k \) elements from the shuffled list, which has a time complexity of \( O(k) \).\\
+\textbf{Overall Time Complexity} \\The total time complexity is the sum of the time complexities of shuffling and selection, which is \( O(n) \) for shuffling and \( O(k) \) for selection. Thus, the overall time complexity is \( O(n + k) \). In practical scenarios, if \( k \) is much smaller than \( n \), this can be simplified to \( O(n) \) as the term \( O(k) \) becomes negligible in comparison to \( O(n) \).\\
+\textbf{Algorithm:}
+\vspace{-\baselineskip}
 \begin{enumerate}
-    \item \textbf{Initialization:}
-    \begin{itemize}
-        \item Define celestial bodies (Sun, planets, moons) as GameObjects.
-        \item Set up the main camera.
-    \end{itemize}
-    
-    \item \textbf{Setup Rotation:}
-    \begin{itemize}
-        \item Attach \texttt{RotateAround} script to celestial bodies.
-        \item Set rotation targets (e.g., planets orbit around Sun, moons around planets).
-        \item Use \texttt{transform.RotateAround} for rotation.
-    \end{itemize}
-    
-    \item \textbf{Camera Behavior:}
-    \begin{itemize}
-        \item Attach \texttt{FollowAtTarget} script to the main camera.
-        \item Update camera to \texttt{LookAt} the target.
-    \end{itemize}
-    
-    \item \textbf{User Interaction:}
-    \begin{itemize}
-        \item Attach \texttt{ChangeLookAtTarget} script to celestial bodies.
-        \item On click, update camera target and adjust \texttt{fieldOfView}.
-    \end{itemize}
-    
-    \item \textbf{Implementation Steps:}
-    \begin{itemize}
-        \item Create celestial bodies and attach scripts.
-        \item Configure camera controls.
-        \item Test rotation, camera focus, and user interactions.
-    \end{itemize}
-    
+    \item \textbf{Shuffling:}For each element in the list, from the first to the second-to-last (i.e., from index 0 to \( n-2 \)):
+        \begin{itemize}
+            \item Generate a random index \( j \) such that \( j \) is between the current index \( i \) and the last index \( n-1 \).
+            \item Swap the element at index \( i \) with the element at index \( j \).
+        \end{itemize}
+    \item \textbf{Selection:} After shuffling, select the first \( k \) elements from the shuffled list.
+    \item \textbf{Output:} The selected \( k \) elements as the random sample.
 \end{enumerate}
-
 
 % \section{Algorithm Details}

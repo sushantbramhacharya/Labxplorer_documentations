@@ -33,9 +33,32 @@ Unity’s real-time rendering capabilities, coupled with its powerful physics en
 Draw.io (now known as diagrams.net) is a powerful, web-based diagramming tool designed to simplify the creation of various types of visual diagrams, including flowcharts, organizational charts, network diagrams, and more. Developed to be user-friendly and accessible, Draw.io provides a comprehensive suite of features that facilitate diagram creation and collaboration. The tool offers a wide range of pre-built templates, shapes, and connectors, allowing users to quickly construct detailed diagrams tailored to their specific needs. With its intuitive drag-and-drop interface, users can easily customize and arrange elements to convey complex information clearly and effectively. Draw.io also integrates seamlessly with cloud storage services like Google Drive and Dropbox, enabling real-time collaboration and ensuring that diagrams are easily accessible from anywhere. Its flexibility and ease of use make it an invaluable resource for professionals and teams seeking to visualize data, plan projects, or streamline workflows.
 \section*{Figma}
 Figma is a leading web-based design tool renowned for its collaborative capabilities and versatility in creating user interfaces, prototypes, and vector graphics. Developed by Figma, Inc., the platform provides a robust set of design features that support both individual and team-based projects. With real-time collaboration, multiple users can simultaneously work on the same design, offering a seamless experience for brainstorming, feedback, and iterative design processes. Figma’s vector graphics editor allows for precise design work, while its prototyping tools enable users to create interactive and dynamic prototypes that simulate the user experience. The platform supports extensive plugin integrations, enhancing functionality and streamlining workflows. Its cloud-based nature ensures that designs are always up-to-date and accessible from any device, making Figma an essential tool for modern design teams seeking efficient and collaborative design solutions.
+
+
 \subsection{Implementation Details of Modules}
 This subsection outlines the implementation specifics for each module, detailing the core functionalities and algorithms utilized. It covers the programming languages, frameworks, and tools used in development, along with the interaction and communication between modules. Key design patterns, data management strategies, and error-handling mechanisms are discussed to ensure optimal performance. Additionally, security measures and optimizations applied during implementation are highlighted.
 \newline
+\newpage
+\textbf{Module of AtomSimulator}
+
+The AtomSimulator module initializes the `selectedElement` with the first element from the `elements` array and sets up a Phaser game instance with appropriate dimensions and physics. It visualizes the atom by creating the nucleus and electron orbits, updates electron positions based on time, and handles user interactions to update the element and re-render the scene. The Phaser instance is destroyed upon component unmounting to free resources.
+\newline
+\textbf{Module of CodeEditor}
+
+The CodeEditor module initializes states for `code` and `consoleOutput`. It creates an iframe to execute user-provided JavaScript code and captures console messages and errors. The `consoleOutput` is updated with iframe messages, and the iframe is removed from the DOM after execution to prevent resource leaks.
+\newline
+\textbf{Module of OhmsLawSimulator}
+
+The OhmsLawSimulator module sets default values for voltage and resistance, initializes a Phaser game instance, and creates game elements. It continuously updates the bulb brightness based on the current \( I = \frac{V}{R} \), adjusts displayed values, and re-renders the simulation with user input changes. The Phaser instance is destroyed on component unmount.
+\newline
+\textbf{Module of GravitySim}
+
+The GravitySim module sets up a Phaser game environment with gravity simulation. It creates game elements, displays initial values, and updates gravity, distance, and time during the simulation. Users can adjust gravity, reset the player, and pause or resume the simulation. The Phaser instance is destroyed on component unmount. The distance traveled is calculated using \( d = \frac{1}{2} g t^2 \).
+\newline
+\textbf{Module of SolarSystemSimulator}
+
+The SolarSystemSimulator module initializes celestial bodies and the main camera. It attaches a `RotateAround` script to simulate planetary and moon orbits and a `FollowAtTarget` script to keep the camera focused on the selected object. Users can change the camera target, and the implementation involves creating bodies, configuring camera controls, and testing interactions.
+\newpage
 \textbf{Frontend API Integration Module}\newline
 This diagram depicts the architecture of a web application where a React frontend communicates with an Express server through RTK Query and Axios. The process starts with the React frontend triggering either queries or mutations, which are handled by the Redux Toolkit (RTK) API slices. These slices manage API interactions, including the request and response lifecycle. Axios is used to send HTTP requests from the frontend to the Express server. The server processes incoming requests, performs necessary operations (such as database interactions), and sends responses back to Axios. Axios then passes the response data to RTK slices, which manage state updates. This architecture ensures smooth, organized data flow between the client and server, making it easier to handle API calls, manage state, and ensure a responsive user experience.
 \begin{figure}[H]
@@ -63,138 +86,211 @@ The Authentication Module utilizes JSON Web Tokens (JWT) for secure user authent
 % Here are some of the algorithms of our simulation models:
 
 \subsection{Unit Testing Test Cases}
-Theses API unit testing are performed using Postman. API unit testing using Postman involves creating and sending requests to API endpoints to ensure they function correctly. You can write test scripts in Postman to validate responses against expected outcomes, such as status codes and response content. Postman also allows for automating tests using the Collection Runner and Newman for continuous integration and delivery.
-\begin{table}[H]
-    \caption{Express Endpoint Testing: Capsules GET Methods}
-    \label{tab:express_endpoint_testing}
+The following tables summarize the results of the main functions tests conducted on the application. Each test case is described along with the expected and actual outcomes to verify the functionality of the application. These results ensure that the application behaves as expected across various scenarios.
+
+\begin{table}[h]
+    \caption{Capsule Main Functions Testing}
+    \label{tab:main_functions_testing}
     \resizebox{\textwidth}{!}{%
-        \begin{tabular}{|p{0.5in}|p{2.5in}|p{3in}|p{1.5in}|}
+        \begin{tabular}{|c|p{1.5in}|p{3in}|p{3in}|p{0.5in}|}
             \hline
-            \textbf{Test No.} & \textbf{Test Case} & \textbf{Endpoint} & \textbf{ Output} \\
+            \textbf{Test No.} & \textbf{Test Case} & \textbf{Expected Output} & \textbf{Actual Output} & \textbf{Result} \\
             \hline
-            1 & Getting Capsules By Category & \texttt{/api/capsule/category?category\newline=physics} & Returns JSON response with Array of Objects with specific category \\
+            1 & Insert Capsule & Capsule object with ID and details is returned, including title, description, content, and associated simulations. & Capsule object with ID and details is returned, including title, description, content, and associated simulations. & Pass \\
             \hline
-            2 & Getting Capsules By Id & \texttt{/api/capsule/?capsuleId=1} & Returns JSON response with Object of Capsules with specific id  \\
+            2 & Read All Capsules & Array of capsule objects including \texttt{id}, \texttt{title}, \texttt{description}, and \texttt{thumbnail}, ordered by \texttt{id}. & Array of capsule objects including \texttt{id}, \texttt{title}, \texttt{description}, and \texttt{thumbnail}, ordered by \texttt{id}. & Pass \\
             \hline
-            3 & Getting All Capsules & \texttt{/api/capsule/all} & Returns JSON response with Array of Objects of Capsules \\
+            3 & Read Capsule By ID & Capsule details including simulation information for the specified ID, such as title, description, content, and associated simulation details. & Capsule details including simulation information for the specified ID, such as title, description, content, and associated simulation details. & Pass \\
             \hline
-        \end{tabular}%
-    }
-\end{table}
-\begin{table}[H]
-    \caption{Express Endpoint Testing: Capsules GET Methods}
-    \label{tab:express_endpoint_testing}
-    \resizebox{\textwidth}{!}{%
-        \begin{tabular}{|p{0.5in}|p{2.5in}|p{3in}|p{1.5in}|}
+            4 & Update Capsule By ID & Success confirmation with updated capsule details reflecting changes in title, description, content, and linked simulations. & Success confirmation with updated capsule details reflecting changes in title, description, content, and linked simulations. & Pass \\
             \hline
-            \textbf{Test No.} & \textbf{Test Case} & \textbf{Endpoint} & \textbf{ Output} \\
+            5 & Delete Capsule By ID & Success confirmation indicating the capsule with the specified ID has been deleted. & Success confirmation indicating the capsule with the specified ID has been deleted. & Pass \\
             \hline
-            1 & Login user/admin endpoint & \texttt{/api/user/login\newline body: Username and Password} & Creates JWT token and sets an HTTP Only Cookie to the client side \\
+            6 & Read Quiz By ID & Array of quiz details related to the specified capsule ID, including quiz questions and options. & Array of quiz details related to the specified capsule ID, including quiz questions and options. & Pass \\
             \hline
-            2 & Register api/user/register & \texttt{api/user/register\newline body: Username,Password and Password} & Returns JSON response with Array of Objects with id \\
-            \hline
-           
-        \end{tabular}%
-    }
-\end{table}
-\begin{table}[H]
-    \caption{Express Endpoint Testing: User Methods}
-    \label{tab:express_endpoint_testing}
-    \resizebox{\textwidth}{!}{%
-        \begin{tabular}{|p{0.5in}|p{2.5in}|p{3in}|p{1.5in}|}
-            \hline
-            \textbf{Test No.} & \textbf{Test Case} & \textbf{Endpoint} & \textbf{ Output} \\
-            \hline
-            1 & Admin add capsule endpoint & \texttt{api/admin/add\newline body:capsule informations and images} & Sucessfully adds images in uploads folder and corresponding capsule into database  \\
-            \hline
-            
         \end{tabular}%
     }
 \end{table}
 \subsection{Test Cases for System Testing}
 The objective of System Testing is to conduct a comprehensive evaluation of the entire PERN application, encompassing both frontend and backend components. This testing phase aims to validate the correct and cohesive functioning of all integrated parts of the system.
+\\
+\\
+\textbf{General System Test Cases}\\
+The following table summarizes the results of testing various general functionalities of the system/application. Each test case is designed to verify a specific functionality, including capsule access, category display, quiz operations, and simulator interactions. The table lists the test case number, description, input used, expected results, actual results obtained, and the outcome of the test. All tests have been successfully executed with the expected results matching the actual outcomes.
 \begin{table}[H]
-    \caption{System/Application Testing: General Functionalities}
-    \label{tab:express_endpoint_testing}
+    \caption{General System Test Cases}
+    \label{tab:general_functionalities_testing}
     \resizebox{\textwidth}{!}{%
-        \begin{tabular}{|p{0.25in}|p{2in}|p{2.5in}|p{2.5in}|}
+        \begin{tabular}{|p{0.25in}|p{2in}|p{1.5in}|p{2.5in}|p{2in}|p{0.5in}|}
             \hline
-            \textbf{Test No.} & \textbf{Test Case} & \textbf{Input} & \textbf{ Output} \\
+            \textbf{Test No.} & \textbf{Test Case} & \textbf{Input} & \textbf{Expected Results} & \textbf{Actual Results} & \textbf{Result} \\
             \hline
-            1 & Acessing Specific Capsules & \texttt{/capsule/8\newline} & Shows whole capsule its images, pdf and all its meta information with quiz. \\
+            1 & Accessing Specific Capsules & 
+            Capsule ID: 8 & 
+            Shows the whole capsule, its images, PDF, and all its meta information with quiz. & 
+            Shows the whole capsule, its images, PDF, and all its meta information with quiz. & 
+            Pass \\
             \hline
-            2 & Capusles By Category & \texttt{/capsules/physics} & Shows cards, thumbnail, title, description and buttons about related category capsules. \\
+            2 & Capsules By Category & 
+            Category: Physics & 
+            Shows cards, thumbnail, title, description, and buttons about related category capsules. & 
+            Shows cards, thumbnail, title, description, and buttons about related category capsules. & 
+            Pass \\
             \hline
-            3 & Acessing Learning Areas & \texttt{/learning-area} & Shows Learning Capsules with categories of each capsules. \\
+            3 & Accessing Learning Areas & 
+            Learning Area View & 
+            Shows Learning Capsules with categories of each capsule. & 
+            Shows Learning Capsules with categories of each capsule. & 
+            Pass \\
             \hline
-            4 & Acessing Quiz & \texttt{/quiz/8} & Shows Quiz of Specific Capsule. \\
+            4 & Accessing Quiz & 
+            Quiz ID: 8 & 
+            Shows Quiz of Specific Capsule. & 
+            Shows Quiz of Specific Capsule. & 
+            Pass \\
             \hline
-            5 & Submitting Quiz & Selecting quiz and submitting & Shows How many quiz was right. \\
+            5 & Submitting Quiz & 
+            Selected Quiz & 
+            Shows how many quizzes were correct. & 
+            Shows how many quizzes were correct. & 
+            Pass \\
             \hline
-            6 & Accessing Ohms Law Simulator & \texttt{/sims/ohmslaw} & Shows Ohms law simulator with V,I and R inputs and phaser output. \\
+            6 & Accessing Ohm's Law Simulator & 
+            Simulator: Ohm's Law & 
+            Shows Ohm's law simulator with V, I, and R inputs and phaser output. & 
+            Shows Ohm's law simulator with V, I, and R inputs and phaser output. & 
+            Pass \\
             \hline
-            7 & Accessing PDF & In capsule screen click on Open PDF & Shows PDF document of specific capsule. \\
+            7 & Accessing PDF & 
+            Open PDF Button & 
+            Shows PDF document of specific capsule. & 
+            Shows PDF document of specific capsule. & 
+            Pass \\
             \hline
-            8 & Accessing Images of Capsule & Clicking Images & Shows Images Realated to capsule.\\
+            8 & Accessing Images of Capsule & 
+            Click Images Button & 
+            Shows images related to capsule. & 
+            Shows images related to capsule. & 
+            Pass \\
             \hline
-            9 & Searching capsules and Simulations& \texttt{/search/Gravity} & Searches and shows capsules and simulation related to capsules. \\
+            9 & Searching Capsules and Simulations & 
+            Search Term: Gravity & 
+            Searches and shows capsules and simulations related to the search term. & 
+            Searches and shows capsules and simulations related to the search term. & 
+            Pass \\
             \hline
         \end{tabular}%
     }
 \end{table}
+\vspace{-1em}
+\textbf{Authentication Unit Test Cases}\\
+The following table presents the results of the authentication testing for the system/application. Each test case is aimed at verifying different authentication functionalities, including user and admin login, as well as user registration. The table provides details on the test case number, the specific test being performed, the input provided, the expected results, the actual results obtained, and the outcome of each test. All tests have been executed successfully, with results meeting the expected outcomes.
 \begin{table}[H]
-    \caption{System/Application Testing: Authentication}
-    \label{tab:express_endpoint_testing}
+    \caption{Authentication Unit Test Cases}
     \resizebox{\textwidth}{!}{%
-        \begin{tabular}{|p{0.25in}|p{1in}|p{3.5in}|p{2.5in}|}
+        \begin{tabular}{|p{0.20in}|p{1in}|p{2.25in}|p{2in}|p{2in}|p{0.5in}|}
             \hline
-            \textbf{Test No.} & \textbf{Test Case} & \textbf{Input} & \textbf{ Output} \\
+            \textbf{SN.} & \textbf{Test Case} & \textbf{Input} & \textbf{Expected Results} & \textbf{Actual Results} & \textbf{Result} \\
             \hline
-            1 & Login User & \texttt{/login\newline Input: Username 'test' and Password 'test'} & Logs in the User and shows profile\\
+            1 & Login User & 
+            Username: 'sushantbram' \newline
+            Password: 'sushant123' & 
+            Logs in the User and shows profile & 
+            Logs in the User and shows profile & 
+            Pass \\
             \hline
-            2 & Login Admin & \texttt{/login\newline Input: Username 'Admin' and Password 'admin'} & Logs in Admin and shows profile\\
+            2 & Login Admin & 
+            Username: 'Admin' \newline
+            Password: 'labxplorerxadmin' & 
+            Logs in Admin and shows profile & 
+            Logs in Admin and shows profile & 
+            Pass \\
             \hline
-            3 & Login User with incorrect credentials & \texttt{/login\newline Input: Username 'test' and Password 'test1234'} & Alerts with wrong password\\\hline
-            4 & Register User & \texttt{/login\newline Input: Username 'Admin' and Password 'admin'} & Logs in Admin and shows profile\\\hline
-           
+            3 & Login User with incorrect credentials & 
+            Username: 'test' \newline
+            Password: 'test1234' & 
+            Alerts with wrong password & 
+            Alerts with wrong password & 
+            Pass \\
+            \hline
+            4 & Register User & 
+            Username: 'Admin' \newline
+            Password: 'admin' & 
+            Registers User and shows profile & 
+            Registers User and shows profile & 
+            Pass \\
+            \hline
         \end{tabular}%
     }
 \end{table}
+\vspace{-1em}
+\textbf{Admin Functionalities  Test Cases}\\
+The table below outlines the results of the admin functionalities testing for the system/application. This testing encompasses key administrative operations such as adding, editing, and deleting capsules, as well as managing quizzes. Each test case details the specific functionality being evaluated, the input provided, the expected results, the actual results obtained, and the final outcome of each test. All tests have been completed successfully, confirming that the admin functionalities operate as expected.
+
 \begin{table}[H]
-    \caption{System/Application Testing: Admin Functionalities}
-    \label{tab:express_endpoint_testing}
+    \caption{Admin Functionalities Test Cases}
+    \label{tab:admin_functionalities_testing}
     \resizebox{\textwidth}{!}{%
-        \begin{tabular}{|p{0.25in}|p{1in}|p{3.5in}|p{2.5in}|}
+        \begin{tabular}{|p{0.25in}|p{1in}|p{2.5in}|p{2.5in}|p{2in}|p{0.5in}|}
             \hline
-            \textbf{Test No.} & \textbf{Test Case} & \textbf{Input} & \textbf{ Output} \\
+            \textbf{Test No.} & \textbf{Test Case} & \textbf{Input} & \textbf{Expected Results} & \textbf{Actual Results} & \textbf{Result} \\
             \hline
-            1 & Add capsule & \texttt{/admin/add} & Shows Form to add capsules and adds capsules when submitted  \\
+            1 & Add capsule & 
+            Accessing Add Capsule Form & 
+            Shows Form to add capsules and adds capsules when submitted & 
+            Shows Form to add capsules and adds capsules when submitted & 
+            Pass \\
             \hline
-            2 & Edit capsule & \texttt{/admin/edit-capsules/6} & Shows Form to edit capsules and adds capsules when submitted  \\
+            2 & Edit capsule & 
+            Accessing Edit Capsule Form for ID 6 & 
+            Shows Form to edit capsules and updates capsule when submitted & 
+            Shows Form to edit capsules and updates capsule when submitted & 
+            Pass \\
             \hline
-            3 & Delete capsule & Delete Capsule & Shows Form to add capsules and adds capsules when submitted  \\
+            3 & Delete capsule & 
+            Deleting Capsule & 
+            Deletes the selected capsule and confirms deletion & 
+            Deletes the selected capsule and confirms deletion & 
+            Pass \\
             \hline
-            4 & Edit Quiz & \texttt{/admin/quiz-mgmnt/6} & Shows Form to add quiz,remove quiz and options  \\
+            4 & Edit Quiz & 
+            Accessing Quiz Management Form for ID 6 & 
+            Shows Form to add quiz, remove quiz, and update options & 
+            Shows Form to add quiz, remove quiz, and update options & 
+            Pass \\
             \hline
-            
         \end{tabular}%
     }
 \end{table}
+\vspace{-1em}
+\textbf{User Functionalities Test Cases}\\
+The following table presents the results of the user functionalities testing for the system/application. This testing evaluates crucial features available to users, including the ability to add items to favorites, comment on capsules, and view their profiles. Each test case details the specific functionality being tested, the input used, the expected outcomes, the actual results obtained, and the final result. All tests have been successfully passed, confirming that user functionalities are working as intended.
+
 \begin{table}[H]
-    \caption{System/Application Testing: User Functionalities}
-    \label{tab:express_endpoint_testing}
+    \caption{User Functionalities Test Cases}
     \resizebox{\textwidth}{!}{%
-    \begin{tabular}{|p{0.25in}|p{1.5in}|p{3in}|p{2.5in}|}
+        \begin{tabular}{|p{0.2in}|p{1.5in}|p{2.5in}|p{2in}|p{2in}|p{0.5in}|}
             \hline
-            \textbf{Test No.} & \textbf{Test Case} & \textbf{Input} & \textbf{ Output} \\
+            \textbf{SN.} & \textbf{Test Case} & \textbf{Input} & \textbf{Expected Results} & \textbf{Actual Results} & \textbf{Result} \\
             \hline
-            1 & Favourite Function & Clicking Add to Favourites button & Adds to favourite and shows in profile  \\
+            1 & Favourite Function & 
+            Clicking Add to Favourites button & 
+            Adds to favourite and shows in profile & 
+            Adds to favourite and shows in profile & 
+            Pass \\
             \hline
-            2 & Commenting & Commenting on Capsules with \"Good Capsule\" & Adds Comment and shows good capsule in both capsule and author profile  \\
+            2 & Commenting & 
+            Commenting on Capsules with "Good Capsule" & 
+            Adds Comment and shows good capsule in both capsule and author profile & 
+            Adds Comment and shows good capsule in both capsule and author profile & 
+            Pass \\
             \hline
-            3 & User Profile & \texttt{/profile} & Shows Profile having Favourite Capsule and Comments done by User \\
+            3 & User Profile & 
+            Viewing user profile & 
+            Shows Profile having Favourite Capsule and Comments done by User & 
+            Shows Profile having Favourite Capsule and Comments done by User & 
+            Pass \\
             \hline
-            
         \end{tabular}%
     }
 \end{table}
